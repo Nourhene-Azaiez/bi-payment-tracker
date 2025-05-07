@@ -1,1 +1,27 @@
-[ ]
+[ {
+  "baseItem" : {
+    "id" : "_rUTsQCuHEfCyz8u0iOoZqQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_-gjJkCuFEfCyz8u0iOoZqQ",
+    "version" : "Latest",
+    "type" : "joblet"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_-gjJkCuFEfCyz8u0iOoZqQ",
+    "version" : "0.1",
+    "type" : "joblet"
+  },
+  "relatedItems" : [ {
+    "id" : "_X3q48Ct9EfCQyaJpOm-Miw - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_tuf3wCt8EfCQyaJpOm-Miw - STG_PAYMENT",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+} ]
