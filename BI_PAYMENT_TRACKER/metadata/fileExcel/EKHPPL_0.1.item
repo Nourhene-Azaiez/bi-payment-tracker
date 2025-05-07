@@ -23,8 +23,8 @@
   </TalendMetadata:FileExcelConnection>
   <orgomg.cwm.resource.record:RecordFile xmi:id="_X3q48it9EfCQyaJpOm-Miw" name="default" dataManager="_X3q48St9EfCQyaJpOm-Miw">
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_X3q48yt9EfCQyaJpOm-Miw" id="_GBzqoCt9EfCQyaJpOm-Miw" label="metadata">
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X3q49Ct9EfCQyaJpOm-Miw" label="KEKCONTR" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X3q49St9EfCQyaJpOm-Miw" label="NCFRPYTNR" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X3q49Ct9EfCQyaJpOm-Miw" label="KEKCONTR" length="12" talendType="id_String" key="true" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X3q49St9EfCQyaJpOm-Miw" label="NCFRPYTNR" length="3" talendType="id_String" key="true" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X3q49it9EfCQyaJpOm-Miw" label="DTVALIDFR" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X3q49yt9EfCQyaJpOm-Miw" label="DTVALIDTO" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X3q4-Ct9EfCQyaJpOm-Miw" label="DTDUE" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>

@@ -16,6 +16,10 @@
     "type" : "joblet"
   },
   "relatedItems" : [ {
+    "id" : "_tuf3wCt8EfCQyaJpOm-Miw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
     "id" : "_X3q48Ct9EfCQyaJpOm-Miw - metadata",
     "version" : "Latest",
     "type" : "schema"
