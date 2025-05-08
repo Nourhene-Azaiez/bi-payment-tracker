@@ -68,7 +68,7 @@
       <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
       <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
     </parameters>
-    <node componentName="tFileInputExcel" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="80" posY="360">
+    <node componentName="tFileInputExcel" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="240" posY="360">
       <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputExcel_1" show="false"/>
       <elementParameter field="CHECK" name="VERSION_2007" value="true"/>
       <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/user/Desktop/PFE/DATA/PSA_DSO_EKHPPL_LOT1.xlsx&quot;"/>
@@ -369,7 +369,7 @@
         </inputTables>
       </nodeData>
     </node>
-    <node componentName="tConvertType" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="960" posY="360">
+    <node componentName="tConvertType" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="880" posY="360">
       <elementParameter field="TEXT" name="UNIQUE_NAME" value="tConvertType_1" show="false"/>
       <elementParameter field="TECHNICAL" name="IN_SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
       <elementParameter field="TECHNICAL" name="IN_SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_tuf3wCt8EfCQyaJpOm-Miw - STG_PAYMENT" show="false"/>
@@ -501,16 +501,7 @@
     </node>
     <node componentName="JDBCOutput" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="1120" posY="360">
       <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBOutput_1" show="false"/>
-      <elementParameter field="TEXT" name="COMPONENT_NAME" value="Output" show="false"/>
       <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="bmV3amRiYyNKREJDI091dHB1dA" show="false"/>
-      <elementParameter field="TEXT" name="VERSION" value="1" show="false"/>
-      <elementParameter field="TEXT" name="FAMILY" value="JDBC" show="false"/>
-      <elementParameter field="CHECK" name="START" value="false" show="false"/>
-      <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
-      <elementParameter field="CHECK" name="SUBTREE_START" value="false" show="false"/>
-      <elementParameter field="CHECK" name="END_OF_FLOW" value="true" show="false"/>
-      <elementParameter field="TEXT" name="HELP" value="HELP" show="false"/>
-      <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
       <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
       <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_tuf3wCt8EfCQyaJpOm-Miw"/>
       <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="" show="false"/>
@@ -663,7 +654,6 @@
       <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
       <elementParameter field="TECHNICAL" name="configuration.dataSet.__version" value="-1" show="false"/>
       <elementParameter field="TECHNICAL" name="configuration.dataSet.dataStore.__version" value="-1" show="false"/>
-      <elementParameter field="TEXT" name="DATASTORE_PATH" value="configuration.dataSet.dataStore" show="false"/>
       <metadata connector="FLOW" label="STG_PAYMENT" name="tDBOutput_1">
         <column comment="" key="false" length="0" name="VALIDFR" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
           <additionalField key="Comment" value=""/>
