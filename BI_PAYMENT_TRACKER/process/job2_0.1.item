@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
+    <context confirmationNeeded="false" hide="false" name="Default"/>
+    <parameters>
+        <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" value=""/>
+        <elementParameter field="CHECK" name="JOB_RUN_VM_ARGUMENTS_OPTION" value="false"/>
+        <elementParameter field="TEXT" name="AUTHOR" value="Talend"/>
+        <elementParameter field="TEXT" name="JOB_VERSION" value="0.1"/>
+        <elementParameter field="TEXT" name="JOB_DESCRIPTION" value="ETL job for processing sales data from Excel to Snowflake"/>
+        <elementParameter field="TEXT" name="JOB_NAME" value="SalesDataETL"/>
+        <elementParameter field="TEXT" name="FILENAME" value="SalesDataETL_0_1"/>
+        <elementParameter field="CHECK" name="ON_STATCATCHER" value="false"/>
+        <elementParameter field="TEXT" name="STATCATCHER_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_LOGCATCHER" value="false"/>
+        <elementParameter field="TEXT" name="LOGCATCHER_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_METERCATCHER" value="false"/>
+        <elementParameter field="TEXT" name="METERCATCHER_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_CONSOLE_LOG" value="false"/>
+        <elementParameter field="CHECK" name="ON_FILES_LOG" value="false"/>
+        <elementParameter field="TEXT" name="FILES_LOG_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_DATABASE_LOG" value="false"/>
+        <elementParameter field="TEXT" name="DATABASE_LOG_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_COMPONENTS_LOG" value="false"/>
+        <elementParameter field="TEXT" name="COMPONENTS_LOG_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JAVA_LOG" value="false"/>
+        <elementParameter field="TEXT" name="JAVA_LOG_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_SYSTEM_LOG" value="false"/>
+        <elementParameter field="TEXT" name="SYSTEM_LOG_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_EXECUTION_LOG" value="false"/>
+        <elementParameter field="TEXT" name="EXECUTION_LOG_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_STATS" value="false"/>
+        <elementParameter field="TEXT" name="JOB_STATS_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_FAILURE" value="false"/>
+        <elementParameter field="TEXT" name="JOB_FAILURE_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CANCEL" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CANCEL_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_START" value="false"/>
+        <elementParameter field="TEXT" name="JOB_START_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_END" value="false"/>
+        <elementParameter field="TEXT" name="JOB_END_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_ERROR" value="false"/>
+        <elementParameter field="TEXT" name="JOB_ERROR_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_WARNING" value="false"/>
+        <elementParameter field="TEXT" name="JOB_WARNING_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_INFO" value="false"/>
+        <elementParameter field="TEXT" name="JOB_INFO_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_DEBUG" value="false"/>
+        <elementParameter field="TEXT" name="JOB_DEBUG_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_TRACE" value="false"/>
+        <elementParameter field="TEXT" name="JOB_TRACE_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_STATS_CATCHER" value="false"/>
+        <elementParameter field="TEXT" name="JOB_STATS_CATCHER_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_METRICS" value="false"/>
+        <elementParameter field="TEXT" name="JOB_METRICS_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_LOAD" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_LOAD_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_SAVE" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_SAVE_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_ERROR" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_ERROR_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_WARNING" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_WARNING_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_INFO" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_INFO_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_DEBUG" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_DEBUG_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_TRACE" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_TRACE_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_STATS" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_STATS_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_METRICS" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_METRICS_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_ERROR" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_ERROR_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_WARNING" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_WARNING_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_INFO" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_INFO_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_DEBUG" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_DEBUG_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_TRACE" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_TRACE_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_STATS" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_STATS_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_METRICS" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_METRICS_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_ALL" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_ALL_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_NONE" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_NONE_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_CUSTOM" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_CUSTOM_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_ALL_ERROR" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_ALL_ERROR_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_ALL_WARNING" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_ALL_WARNING_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_ALL_INFO" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_ALL_INFO_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_ALL_DEBUG" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_ALL_DEBUG_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_ALL_TRACE" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_ALL_TRACE_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_ALL_STATS" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_ALL_STATS_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_ALL_METRICS" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_ALL_METRICS_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_NONE_ERROR" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_NONE_ERROR_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_NONE_WARNING" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_NONE_WARNING_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_NONE_INFO" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_NONE_INFO_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_NONE_DEBUG" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_NONE_DEBUG_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_NONE_TRACE" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_NONE_TRACE_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_NONE_STATS" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_NONE_STATS_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_NONE_METRICS" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_NONE_METRICS_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_CUSTOM_ERROR" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_CUSTOM_ERROR_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_CUSTOM_WARNING" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_CUSTOM_WARNING_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_CUSTOM_INFO" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_CUSTOM_INFO_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_CUSTOM_DEBUG" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_CUSTOM_DEBUG_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_CUSTOM_TRACE" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_CUSTOM_TRACE_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_CUSTOM_STATS" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_CUSTOM_STATS_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_CUSTOM_METRICS" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_CUSTOM_METRICS_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_CUSTOM_ALL" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_CUSTOM_ALL_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_CUSTOM_NONE" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_CUSTOM_NONE_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_CUSTOM_CUSTOM" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_CUSTOM_CUSTOM_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_CUSTOM_ALL_ERROR" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_CUSTOM_ALL_ERROR_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_CUSTOM_ALL_WARNING" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_CUSTOM_ALL_WARNING_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_CUSTOM_ALL_INFO" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_CUSTOM_ALL_INFO_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_CUSTOM_ALL_DEBUG" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_CUSTOM_ALL_DEBUG_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_CUSTOM_ALL_TRACE" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_CUSTOM_ALL_TRACE_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_CUSTOM_ALL_STATS" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_CUSTOM_ALL_STATS_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_CUSTOM_ALL_METRICS" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_CUSTOM_ALL_METRICS_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_CUSTOM_NONE_ERROR" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_CUSTOM_NONE_ERROR_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_CUSTOM_NONE_WARNING" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_CUSTOM_NONE_WARNING_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_CUSTOM_NONE_INFO" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_CUSTOM_NONE_INFO_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_CUSTOM_NONE_DEBUG" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_CUSTOM_NONE_DEBUG_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_CUSTOM_NONE_TRACE" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_CUSTOM_NONE_TRACE_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_CUSTOM_NONE_STATS" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_CUSTOM_NONE_STATS_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_CUSTOM_NONE_METRICS" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_CUSTOM_NONE_METRICS_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_CUSTOM_CUSTOM_ERROR" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_CUSTOM_CUSTOM_ERROR_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_CUSTOM_CUSTOM_WARNING" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_CUSTOM_CUSTOM_WARNING_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_CUSTOM_CUSTOM_INFO" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_CUSTOM_CUSTOM_INFO_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_CUSTOM_CUSTOM_DEBUG" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_CUSTOM_CUSTOM_DEBUG_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_CUSTOM_CUSTOM_TRACE" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_CUSTOM_CUSTOM_TRACE_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_CUSTOM_CUSTOM_STATS" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_CUSTOM_CUSTOM_STATS_CONFIGURATION" value=""/>
+        <elementParameter field="CHECK" name="ON_JOB_CONTEXT_CATCHER_CUSTOM_CUSTOM_METRICS" value="false"/>
+        <elementParameter field="TEXT" name="JOB_CONTEXT_CATCHER_CUSTOM_CUSTOM_METRICS_CONFIGURATION" value=""/>
+    </parameters>
+
+    <node componentName="tFileInputExcel" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="100" posY="100">
+        <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputExcel_1"/>
+        <elementParameter field="FILE" name="FILENAME" value="/path/to/your/excel/file.xlsx"/>
+        <elementParameter field="CHECK" name="USE_HEADER" value="true"/>
+        <elementParameter field="TEXT" name="HEADER_ROW_NUM" value="0"/>
+        <elementParameter field="CHECK" name="USE_FOOTER" value="false"/>
+        <elementParameter field="TEXT" name="FOOTER_ROW_NUM" value="0"/>
+        <elementParameter field="CHECK" name="USE_FIRST_ROW_AS_HEAD" value="false"/>
+        <elementParameter field="TABLE" name="SCHEMA">
+            <elementValue elementRef="COLUMN" value="CONTRACT_ID"/>
+            <elementValue elementRef="TYPE" value="id_String"/>
+            <elementValue elementRef="LENGTH" value=""/>
+            <elementValue elementRef="PRECISION" value=""/>
+            <elementValue elementRef="PATTERN" value=""/>
+            <elementValue elementRef="COLUMN" value="AMOUNT"/>
+            <elementValue elementRef="TYPE" value="id_Float"/>
+            <elementValue elementRef="LENGTH" value=""/>
+            <elementValue elementRef="PRECISION" value=""/>
+            <elementValue elementRef="PATTERN" value=""/>
+            <elementValue elementRef="COLUMN" value="CURRENCY"/>
+            <elementValue elementRef="TYPE" value="id_String"/>
+            <elementValue elementRef="LENGTH" value=""/>
+            <elementValue elementRef="PRECISION" value=""/>
+            <elementValue elementRef="PATTERN" value=""/>
+            <elementValue elementRef="COLUMN" value="TRANSACTION_DATE"/>
+            <elementValue elementRef="TYPE" value="id_String"/>
+            <elementValue elementRef="LENGTH" value=""/>
+            <elementValue elementRef="PRECISION" value=""/>
+            <elementValue elementRef="PATTERN" value=""/>
+        </elementParameter>
+        <metadata connector="FLOW" name="tFileInputExcel_1"/>
+    </node>
+
+    <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="300" posY="100">
+        <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_1"/>
+        <elementParameter field="TABLE" name="SCHEMA_INPUT">
+            <elementValue elementRef="COLUMN" value="CONTRACT_ID"/>
+            <elementValue elementRef="TYPE" value="id_String"/>
+            <elementValue elementRef="LENGTH" value=""/>
+            <elementValue elementRef="PRECISION" value=""/>
+            <elementValue elementRef="PATTERN" value=""/>
+            <elementValue elementRef="COLUMN" value="AMOUNT"/>
+            <elementValue elementRef="TYPE" value="id_Float"/>
+            <elementValue elementRef="LENGTH" value=""/>
+            <elementValue elementRef="PRECISION" value=""/>
+            <elementValue elementRef="PATTERN" value=""/>
+            <elementValue elementRef="COLUMN" value="CURRENCY"/>
+            <elementValue elementRef="TYPE" value="id_String"/>
+            <elementValue elementRef="LENGTH" value=""/>
+            <elementValue elementRef="PRECISION" value=""/>
+            <elementValue elementRef="PATTERN" value=""/>
+            <elementValue elementRef="COLUMN" value="TRANSACTION_DATE"/>
+            <elementValue elementRef="TYPE" value="id_String"/>
+            <elementValue elementRef="LENGTH" value=""/>
+            <elementValue elementRef="PRECISION" value=""/>
+            <elementValue elementRef="PATTERN" value=""/>
+        </elementParameter>
+        <elementParameter field="TABLE" name="SCHEMA_OUTPUT">
+            <elementValue elementRef="COLUMN" value="CONTRACT_ID"/>
+            <elementValue elementRef="TYPE" value="id_String"/>
+            <elementValue elementRef="LENGTH" value=""/>
+            <elementValue elementRef="PRECISION" value=""/>
+            <elementValue elementRef="PATTERN" value=""/>
+            <elementValue elementRef="COLUMN" value="AMOUNT_USD"/>
+            <elementValue elementRef="TYPE" value="id_Float"/>
+            <elementValue elementRef="LENGTH" value=""/>
+            <elementValue elementRef="PRECISION" value=""/>
+            <elementValue elementRef="PATTERN" value=""/>
+            <elementValue elementRef="COLUMN" value="TRANSACTION_DATE_NORM"/>
+            <elementValue elementRef="TYPE" value="id_Date"/>
+            <elementValue elementRef="LENGTH" value=""/>
+            <elementValue elementRef="PRECISION" value=""/>
+            <elementValue elementRef="PATTERN" value="yyyy-MM-dd"/>
+        </elementParameter>
+        <elementParameter field="TEXT" name="TRANSFORM_RULES">
+            <elementValue elementRef="INPUT_COLUMN" value="CONTRACT_ID"/>
+            <elementValue elementRef="OUTPUT_COLUMN" value="CONTRACT_ID"/>
+            <elementValue elementRef="INPUT_COLUMN" value="AMOUNT"/>
+            <elementValue elementRef="OUTPUT_COLUMN" value="AMOUNT_USD"/>
+            <elementValue elementRef="INPUT_COLUMN" value="CURRENCY"/>
+            <elementValue elementRef="OUTPUT_COLUMN" value=""/>
+            <elementValue elementRef="INPUT_COLUMN" value="TRANSACTION_DATE"/>
+            <elementValue elementRef="OUTPUT_COLUMN" value="TRANSACTION_DATE_NORM"/>
+        </elementParameter>
+        <metadata connector="FLOW" name="tMap_1"/>
+    </node>
+
+    <node componentName="tSnowflakeOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="500" posY="100">
+        <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSnowflakeOutput_1"/>
+        <elementParameter field="TEXT" name="HOST" value="ACCOUNT.snowflakecomputing.com"/>
+        <elementParameter field="TEXT" name="DATABASE" value="SALES_DB"/>
+        <elementParameter field="TEXT" name="SCHEMA" value="STAGING"/>
+        <elementParameter field="TEXT" name="WAREHOUSE" value="COMPUTE_WH"/>
+        <elementParameter field="TEXT" name="USER" value="YOUR_USER"/>
+        <elementParameter field="PASSWORD" name="PASSWORD" value="YOUR_PASSWORD"/>
+        <elementParameter field="TEXT" name="TABLE" value="SALES_DATA"/>
+        <elementParameter field="TEXT" name="BATCH_SIZE" value="10000"/>
+        <elementParameter field="CHECK" name="TRUNCATE_TABLE" value="false"/>
+        <elementParameter field="TABLE" name="SCHEMA">
+            <elementValue elementRef="COLUMN" value="CONTRACT_ID"/>
+            <elementValue elementRef="TYPE" value="id_String"/>
+            <elementValue elementRef="LENGTH" value=""/>
+            <elementValue elementRef="PRECISION" value=""/>
+            <elementValue elementRef="PATTERN" value=""/>
+            <elementValue elementRef="COLUMN" value="AMOUNT_USD"/>
+            <elementValue elementRef="TYPE" value="id_Float"/>
+            <elementValue elementRef="LENGTH" value=""/>
+            <elementValue elementRef="PRECISION" value=""/>
+            <elementValue elementRef="PATTERN" value=""/>
+            <elementValue elementRef="COLUMN" value="TRANSACTION_DATE_NORM"/>
+            <elementValue elementRef="TYPE" value="id_Date"/>
+            <elementValue elementRef="LENGTH" value=""/>
+            <elementValue elementRef="PRECISION" value=""/>
+            <elementValue elementRef="PATTERN" value="yyyy-MM-dd"/>
+        </elementParameter>
+        <metadata connector="FLOW" name="tSnowflakeOutput_1"/>
+    </node>
+        <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFileInputExcel_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputExcel_1" target="tMap_1"/>
+        <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tMap_1" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tSnowflakeOutput_1"/>
+</talendfile:ProcessType>
