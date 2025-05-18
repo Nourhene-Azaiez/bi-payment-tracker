@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
-  <TalendMetadata:FileExcelConnection xmi:id="_lucbgCt9EfCQyaJpOm-Miw" name="EKHINVHD" dataPackage="_lucbgSt9EfCQyaJpOm-Miw" Server="Localhost 127.0.0.1" FilePath="C:/Users/user/Desktop/PFE/DATA/PSA_DSO_EKHINVHD_LOT1.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="PSA_DSO_EKHINVHD_LOT1" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" sheetList="PSA_DSO_EKHINVHD_LOT1:w&#xA;">
+  <TalendMetadata:FileExcelConnection xmi:id="_lucbgCt9EfCQyaJpOm-Miw" name="EKHINVHD" id="_lub0cCt9EfCQyaJpOm-Miw" dataPackage="_lucbgSt9EfCQyaJpOm-Miw" Server="Localhost 127.0.0.1" FilePath="C:/Users/user/Desktop/PFE/DATA/PSA_DSO_EKHINVHD_LOT1.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="PSA_DSO_EKHINVHD_LOT1" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" sheetList="PSA_DSO_EKHINVHD_LOT1:w&#xA;">
     <sheetColumns>A</sheetColumns>
     <sheetColumns>B</sheetColumns>
     <sheetColumns>C</sheetColumns>
@@ -36,14 +36,14 @@
   </TalendMetadata:FileExcelConnection>
   <orgomg.cwm.resource.record:RecordFile xmi:id="_lucbgSt9EfCQyaJpOm-Miw" name="default" dataManager="_lucbgCt9EfCQyaJpOm-Miw">
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_lucbgit9EfCQyaJpOm-Miw" id="_ZEUSQCt9EfCQyaJpOm-Miw" label="metadata">
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lucbgyt9EfCQyaJpOm-Miw" label="KFRBILNR" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lucbhCt9EfCQyaJpOm-Miw" label="DTVALIDFR" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lucbhSt9EfCQyaJpOm-Miw" label="DTVALIDTO" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lucbhit9EfCQyaJpOm-Miw" label="DTFRDUED" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lucbhyt9EfCQyaJpOm-Miw" label="DTFRINST" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lucbgyt9EfCQyaJpOm-Miw" label="KFRBILNR" length="10" talendType="id_String" key="true" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lucbhCt9EfCQyaJpOm-Miw" label="DTVALIDFR" length="-1" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lucbhSt9EfCQyaJpOm-Miw" label="DTVALIDTO" length="-1" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lucbhit9EfCQyaJpOm-Miw" label="DTFRDUED" length="-1" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lucbhyt9EfCQyaJpOm-Miw" label="DTFRINST" length="-1" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lucbiCt9EfCQyaJpOm-Miw" label="KFRGBILNR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lucbiSt9EfCQyaJpOm-Miw" label="DTFRACCA" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lucbiit9EfCQyaJpOm-Miw" label="DM_EXDATE" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lucbiSt9EfCQyaJpOm-Miw" label="DTFRACCA" length="-1" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lucbiit9EfCQyaJpOm-Miw" label="DM_EXDATE" length="-1" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lucbiyt9EfCQyaJpOm-Miw" label="DSFRBNAM" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lucbjCt9EfCQyaJpOm-Miw" label="DSFRBENE" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lucbjSt9EfCQyaJpOm-Miw" label="FFRINCID" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;"/>

@@ -382,10 +382,10 @@
         <column comment="" key="false" length="0" name="VALIDFR" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
           <additionalField key="Comment" value=""/>
         </column>
-        <column comment="" key="false" length="12" name="CONTRACTID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <column comment="" key="true" length="12" name="CONTRACTID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
           <additionalField key="Comment" value=""/>
         </column>
-        <column comment="" key="false" length="3" name="PAYMENTNR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <column comment="" key="true" length="3" name="PAYMENTNR" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
           <additionalField key="Comment" value=""/>
         </column>
         <column comment="" key="false" length="0" name="DUEDATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
@@ -441,10 +441,10 @@
         <column comment="" key="false" length="0" name="VALIDFR" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
           <additionalField key="Comment" value=""/>
         </column>
-        <column comment="" key="false" length="12" name="CONTRACTID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <column comment="" key="true" length="12" name="CONTRACTID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
           <additionalField key="Comment" value=""/>
         </column>
-        <column comment="" key="false" length="3" name="PAYMENTNR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <column comment="" key="true" length="3" name="PAYMENTNR" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
           <additionalField key="Comment" value=""/>
         </column>
         <column comment="" key="false" length="0" name="DUEDATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
@@ -658,10 +658,10 @@
         <column comment="" key="false" length="0" name="VALIDFR" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
           <additionalField key="Comment" value=""/>
         </column>
-        <column comment="" key="false" length="12" name="CONTRACTID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <column comment="" key="true" length="12" name="CONTRACTID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
           <additionalField key="Comment" value=""/>
         </column>
-        <column comment="" key="false" length="3" name="PAYMENTNR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <column comment="" key="true" length="3" name="PAYMENTNR" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
           <additionalField key="Comment" value=""/>
         </column>
         <column comment="" key="false" length="0" name="DUEDATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
@@ -719,10 +719,10 @@
         <column comment="" key="false" length="0" name="VALIDFR" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
           <additionalField key="Comment" value=""/>
         </column>
-        <column comment="" key="false" length="12" name="CONTRACTID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <column comment="" key="true" length="12" name="CONTRACTID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
           <additionalField key="Comment" value=""/>
         </column>
-        <column comment="" key="false" length="3" name="PAYMENTNR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <column comment="" key="true" length="3" name="PAYMENTNR" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
           <additionalField key="Comment" value=""/>
         </column>
         <column comment="" key="false" length="0" name="DUEDATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">

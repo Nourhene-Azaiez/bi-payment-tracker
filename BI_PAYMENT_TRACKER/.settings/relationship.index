@@ -16,9 +16,21 @@
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "_-gjJkCuFEfCyz8u0iOoZqQ",
+    "id" : "_te0AgCt9EfCQyaJpOm-Miw",
     "version" : "Latest",
-    "type" : "joblet"
+    "type" : "property"
+  }, {
+    "id" : "_tuf3wCt8EfCQyaJpOm-Miw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_te0AgCt9EfCQyaJpOm-Miw - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_tuf3wCt8EfCQyaJpOm-Miw - STG_CUSTOMER",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
@@ -47,6 +59,67 @@
     "type" : "schema"
   }, {
     "id" : "_tuf3wCt8EfCQyaJpOm-Miw - STG_PAYMENT",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_TkM-gDQWEfCVNNx4X30ocQ",
+    "version" : "0.1",
+    "type" : "joblet"
+  },
+  "relatedItems" : [ {
+    "id" : "_lub0cCt9EfCQyaJpOm-Miw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_tuf3wCt8EfCQyaJpOm-Miw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_lub0cCt9EfCQyaJpOm-Miw - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_tuf3wCt8EfCQyaJpOm-Miw - STG_INVOICE",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_a_a1sDPQEfCxHKwifZRUGw",
+    "version" : "0.1",
+    "type" : "joblet"
+  },
+  "relatedItems" : [ {
+    "id" : "_FKtewCwmEfCJq7gO9hv0Fw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_tuf3wCt8EfCQyaJpOm-Miw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_FKtewCwmEfCJq7gO9hv0Fw - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_z-PxUDP9EfCVNNx4X30ocQ",
+    "version" : "0.1",
+    "type" : "joblet"
+  },
+  "relatedItems" : [ {
+    "id" : "_MZZTACwmEfCJq7gO9hv0Fw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_tuf3wCt8EfCQyaJpOm-Miw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_MZZTACwmEfCJq7gO9hv0Fw - metadata",
     "version" : "Latest",
     "type" : "schema"
   } ]

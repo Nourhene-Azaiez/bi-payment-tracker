@@ -11,10 +11,10 @@
   </TalendMetadata:FileExcelConnection>
   <orgomg.cwm.resource.record:RecordFile xmi:id="_FK6TESwmEfCJq7gO9hv0Fw" name="default" dataManager="_FK6TECwmEfCJq7gO9hv0Fw">
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_FK6TEiwmEfCJq7gO9hv0Fw" id="_84bfgCwlEfCJq7gO9hv0Fw" label="metadata">
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FK6TEywmEfCJq7gO9hv0Fw" label="SEKCONTR" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FK6TFCwmEfCJq7gO9hv0Fw" label="KEKCONTR" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FK6TFSwmEfCJq7gO9hv0Fw" label="KFRORDNR" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FK6TFiwmEfCJq7gO9hv0Fw" label="DTSTATCHG" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FK6TEywmEfCJq7gO9hv0Fw" label="SEKCONTR" length="4" talendType="id_String" key="true" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FK6TFCwmEfCJq7gO9hv0Fw" label="KEKCONTR" length="12" talendType="id_String" key="true" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FK6TFSwmEfCJq7gO9hv0Fw" label="KFRORDNR" length="10" talendType="id_String" key="true" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FK6TFiwmEfCJq7gO9hv0Fw" label="DTSTATCHG" length="28" talendType="id_String" key="true" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FK6TFywmEfCJq7gO9hv0Fw" label="DM_EXDATE" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FK6TGCwmEfCJq7gO9hv0Fw" label="RECORDMODE" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FK6TGSwmEfCJq7gO9hv0Fw" label="DSFRUSER" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
