@@ -16,7 +16,7 @@
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "_te0AgCt9EfCQyaJpOm-Miw",
+    "id" : "_XAwUgCt8EfCQyaJpOm-Miw",
     "version" : "Latest",
     "type" : "property"
   }, {
@@ -24,11 +24,7 @@
     "version" : "Latest",
     "type" : "property"
   }, {
-    "id" : "_te0AgCt9EfCQyaJpOm-Miw - metadata",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
-    "id" : "_tuf3wCt8EfCQyaJpOm-Miw - STG_CUSTOMER",
+    "id" : "_XAwUgCt8EfCQyaJpOm-Miw - metadata",
     "version" : "Latest",
     "type" : "schema"
   } ]
@@ -59,6 +55,25 @@
     "type" : "schema"
   }, {
     "id" : "_tuf3wCt8EfCQyaJpOm-Miw - STG_PAYMENT",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_1dk10DScEfC5ta-bnfDwiQ",
+    "version" : "0.1",
+    "type" : "joblet"
+  },
+  "relatedItems" : [ {
+    "id" : "_te0AgCt9EfCQyaJpOm-Miw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_tuf3wCt8EfCQyaJpOm-Miw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_te0AgCt9EfCQyaJpOm-Miw - metadata",
     "version" : "Latest",
     "type" : "schema"
   } ]
