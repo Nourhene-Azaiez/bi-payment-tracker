@@ -227,7 +227,7 @@
       <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="STG_STATUS">
-        <mapperTableEntries name="CONTRACTID" type="id_String"/>
+        <mapperTableEntries name="CONTRACTID" expression="row1.KEKCONTR" type="id_String"/>
         <mapperTableEntries name="ORDERNR" type="id_Integer"/>
         <mapperTableEntries name="CONTRACTSTATUS" type="id_String"/>
         <mapperTableEntries name="DATESTATCHANGE" type="id_Date"/>
