@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" hide="false" name="Default"/>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
-    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
-    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
     <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
     <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
     <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
@@ -20,20 +18,20 @@
     <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
     <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
     <elementParameter field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
-    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="false" show="false"/>
-    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="true" show="false"/>
     <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
     <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
     <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
     <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
     <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
-    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;C:/Program Files (x86)/Talend-Studio/studio/workspace/in.csv&quot;" show="false"/>
-    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;" show="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" value="false" show="false"/>
     <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" value="ISO-8859-15" show="false"/>
     <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" value="" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value="ORACLE_18" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value="" show="false"/>
     <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
     <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -44,7 +42,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:rZH02B5jfGFWTFoLUHGCpO1bBCFmwh/lMYuv18SD" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:o/oC5TCo8TRODhd4ykpRzuI6A1QuIK+oFl/Ezfbw" show="false"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -52,8 +50,8 @@
     <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning" show="false"/>
     <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="false" show="false"/>
     <elementParameter field="CHECK" name="DISABLE_ERROR" value="false" show="false"/>
-    <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="true" show="false"/>
-    <elementParameter field="CHECK" name="DISABLE_INFO" value="true" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" value="false" show="false"/>
     <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
@@ -79,7 +77,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:LJYVvp0TaN6X3+v2QLX2NnQhk3AHZQiqbgdlskQw" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:FvxskKHP7qwIDpVhVyGpwir8WpDTy9FONQvU0wk8" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
@@ -99,292 +97,138 @@
     <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
     <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
   </parameters>
-  <node componentName="tFileInputExcel" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="240">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputExcel_1" show="false"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_FKtewCwmEfCJq7gO9hv0Fw" show="false"/>
-    <elementParameter field="CHECK" name="VERSION_2007" value="true"/>
-    <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/user/Desktop/PFE/DATA/PSA_DSO_EKZSTATU_LOT1.xlsx&quot;"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:eX7q2iVcUUxtc78aLxzGkGfJ0R70pm26A1xMFI2c"/>
-    <elementParameter field="CHECK" name="ALL_SHEETS" value="false"/>
-    <elementParameter field="TABLE" name="SHEETLIST">
-      <elementValue elementRef="SHEETNAME" value="&quot;PSA_DSO_EKZSTATU_LOT1&quot;" id="0"/>
-      <elementValue elementRef="USE_REGEX" value="" id="1"/>
-    </elementParameter>
-    <elementParameter field="TEXT" name="HEADER" value="1"/>
-    <elementParameter field="TEXT" name="FOOTER" value="0"/>
-    <elementParameter field="TEXT" name="LIMIT" value=""/>
-    <elementParameter field="CHECK" name="AFFECT_EACH_SHEET" value="false"/>
-    <elementParameter field="TEXT" name="FIRST_COLUMN" value="1"/>
-    <elementParameter field="TEXT" name="LAST_COLUMN" value=""/>
-    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:REPOSITORY_SCHEMA_TYPE" value="_FKtewCwmEfCJq7gO9hv0Fw - metadata" show="false"/>
-    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
-    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="','" show="false"/>
-    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="'.'" show="false"/>
-    <elementParameter field="CHECK" name="TRIMALL" value="false"/>
-    <elementParameter field="TABLE" name="TRIMSELECT">
-      <elementValue elementRef="SCHEMA_COLUMN" value="SEKCONTR" id="0"/>
-      <elementValue elementRef="TRIM" value="false" id="1"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="KEKCONTR" id="2"/>
-      <elementValue elementRef="TRIM" value="false" id="3"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="KFRORDNR" id="4"/>
-      <elementValue elementRef="TRIM" value="false" id="5"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="DTSTATCHG" id="6"/>
-      <elementValue elementRef="TRIM" value="false" id="7"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="DM_EXDATE" id="8"/>
-      <elementValue elementRef="TRIM" value="false" id="9"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="RECORDMODE" id="10"/>
-      <elementValue elementRef="TRIM" value="false" id="11"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="DSFRUSER" id="12"/>
-      <elementValue elementRef="TRIM" value="false" id="13"/>
-    </elementParameter>
-    <elementParameter field="CHECK" name="CONVERTDATETOSTRING" value="false"/>
-    <elementParameter field="TABLE" name="DATESELECT" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="SEKCONTR" id="0"/>
-      <elementValue elementRef="CONVERTDATE" value="false" id="1"/>
-      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;" id="2"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="KEKCONTR" id="3"/>
-      <elementValue elementRef="CONVERTDATE" value="false" id="4"/>
-      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;" id="5"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="KFRORDNR" id="6"/>
-      <elementValue elementRef="CONVERTDATE" value="false" id="7"/>
-      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;" id="8"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="DTSTATCHG" id="9"/>
-      <elementValue elementRef="CONVERTDATE" value="false" id="10"/>
-      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;" id="11"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="DM_EXDATE" id="12"/>
-      <elementValue elementRef="CONVERTDATE" value="false" id="13"/>
-      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;" id="14"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="RECORDMODE" id="15"/>
-      <elementValue elementRef="CONVERTDATE" value="false" id="16"/>
-      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;" id="17"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="DSFRUSER" id="18"/>
-      <elementValue elementRef="CONVERTDATE" value="false" id="19"/>
-      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;" id="20"/>
-    </elementParameter>
-    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
-    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
-    <elementParameter field="CHECK" name="READ_REAL_VALUE" value="false" show="false"/>
-    <elementParameter field="CHECK" name="FORMAT_DATE_CELLS" value="true" show="false"/>
-    <elementParameter field="CHECK" name="STOPREAD_ON_EMPTYROW" value="false"/>
-    <elementParameter field="CHECK" name="NOVALIDATE_ON_CELL" value="false" show="false"/>
-    <elementParameter field="CHECK" name="SUPPRESS_WARN" value="false" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="GENERATION_MODE" value="USER_MODE"/>
-    <elementParameter field="CHECK" name="INCLUDE_PHONETICRUNS" value="true" show="false"/>
-    <elementParameter field="CHECK" name="CONFIGURE_INFLATION_RATIO" value="false"/>
-    <elementParameter field="TEXT" name="INFLATION_RATIO" value="" show="false"/>
-    <elementParameter field="TEXT" name="LABEL" value="EKZSTATU"/>
+  <node componentName="tDBInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="100" posY="200">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_1" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" value="SNOWFLAKE"/>
+    <elementParameter field="TEXT" name="HOST" value="EAMKPTL-JGC28746.snowflakecomputing.com"/>
+    <elementParameter field="TEXT" name="PORT" value=""/>
+    <elementParameter field="TEXT" name="DBNAME" value="FINANCE_PFE"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="STAGING"/>
+    <elementParameter field="TEXT" name="USER" value="NOURHENEAZAIEZ"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:RK+UnpU/xGg2ug0o599/j+Kj6+i4Q0Z0/gV61uxGg9+w"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="STG_OBJECT"/>
+    <elementParameter field="QUERYSEARCH_TABLE_NAME" name="QUERY" value="STG_OBJECT" show="false"/>
+    <elementParameter field="TEXT" name="JDBC_URL" value="jdbc:snowflake://EAMKPTL-JGC28746.snowflakecomputing.com/?user=NOURHENEAZAIEZ&amp;warehouse=COMPUTE_WH&amp;db=FINANCE_PFE&amp;schema=DATA_WAREHOUSE" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" value="net.snowflake.client.jdbc.SnowflakeDriver" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_JAR" value="mvn:org.talend.libraries/snowflake-jdbc-3.24.0/6.0.0-SNAPSHOT/jar" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="STG_OBJECT"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="metadata" name="tFileInputExcel_1">
-      <column comment="" key="true" length="4" name="SEKCONTR" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="true" length="12" name="KEKCONTR" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="true" length="10" name="KFRORDNR" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="true" length="28" name="DTSTATCHG" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
-      <column comment="" key="false" length="28" name="DM_EXDATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="RECORDMODE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="16" name="DSFRUSER" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-    </metadata>
-    <metadata connector="REJECT" label="metadata" name="REJECT">
-      <column comment="" key="true" length="4" name="SEKCONTR" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="true" length="12" name="KEKCONTR" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="true" length="10" name="KFRORDNR" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="true" length="28" name="DTSTATCHG" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
-      <column comment="" key="false" length="28" name="DM_EXDATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="RECORDMODE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="16" name="DSFRUSER" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__TABLE__.&lt;br&gt;"/>
+    <elementParameter field="MEMO" name="QUERY" value="SELECT EXTRACTIONDATE, OBJECTID, BRANDCODE, RANGECODE, NOMENCLATURE, GROUPCODE, ENERGYCOD, TYPECODE, LABELCODE, ACTDELIVERYDAT, DELIVERYDAT, REGISTNR, CHASSISNR, FISCALPW, DINPW, CUBICCAP, REGISTDAT, ROADDAT, YEARPROD, MILEAGE, RESTMILEAGE, PURPSUSE FROM &quot;STAGING&quot;.&quot;STG_OBJECT&quot;"/>
+    <metadata connector="FLOW" name="STG_OBJECT">
+      <column comment="" key="false" length="10" name="OBJECTID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="BRANDCODE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="RANGECODE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="NOMENCLATURE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="GROUPCODE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="ENERGYCOD" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="TYPECODE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="LABELCODE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" name="ACTDELIVERYDAT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" name="DELIVERYDAT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="15" name="REGISTNR" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="CHASSISNR" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" name="FISCALPW" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DOUBLE" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" name="DINPW" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DOUBLE" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" name="CUBICCAP" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DOUBLE" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" name="REGISTDAT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" name="ROADDAT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" name="YEARPROD" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" name="MILEAGE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DOUBLE" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" name="RESTMILEAGE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DOUBLE" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="PURPSUSE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" name="EXTRACTIONDATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="440" posY="240">
+  <!-- <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="350" posY="200">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_1" show="false"/>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
     <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
-    <elementParameter field="IMAGE" name="PREVIEW" value="_nMlbgDZUEfCK_K5f6DtTzA-tMap_1-PREVIEW.bmp"/>
-    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
-    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
-    <elementParameter field="TEXT" name="LEVENSHTEIN" value="0" show="false"/>
-    <elementParameter field="TEXT" name="JACCARD" value="0" show="false"/>
-    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" value="false" show="false"/>
     <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="STG_STATUS" name="statu">
-      <column comment="" key="true" length="12" name="CONTRACTID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="true" length="10" name="ORDERNR" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="true" length="4" name="CONTRACTSTATUS" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="true" length="0" name="DATESTATCHANGE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="0" name="EXTRACTIONDATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
+    <elementParameter field="HINT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__TABLE__.&lt;br&gt;"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <metadata connector="FLOW" name="DIM_OBJET">
+      <column comment="" key="false" name="EXTRACTION_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="true" length="10" name="OBJECT_ID" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="BRAND_CODE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="RANGE_CODE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="NOMENCLATURE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="GROUP" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="ENERGY_CODE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="TYPE_CODE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="LABEL" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" name="ACTUAL_DELIVERY_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" name="DELIVERY_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="15" name="REGISTRATION_NUMBER" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="CHASSIS_NUMBER" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" name="FISCAL_POWER" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DOUBLE" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" name="DIN_POWER" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DOUBLE" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" name="CUBIC_CAPACITY" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DOUBLE" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" name="REGISTRATION_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" name="ROADING_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" name="YEAR_OF_PRODUCTION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" name="MILEAGE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DOUBLE" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" name="RESTITUTION_MILEAGE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DOUBLE" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="PURPOSE_OF_USE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties/>
-      <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
-      <outputTables sizeState="INTERMEDIATE" name="statu">
-        <mapperTableEntries name="CONTRACTID" expression="" type="id_String"/>
-        <mapperTableEntries name="ORDERNR" expression="" type="id_BigDecimal"/>
-        <mapperTableEntries name="CONTRACTSTATUS" expression="" type="id_String"/>
-        <mapperTableEntries name="DATESTATCHANGE" expression="" type="id_Date"/>
-        <mapperTableEntries name="EXTRACTIONDATE" expression="" type="id_Date" nullable="true"/>
-      </outputTables>
-      <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
-        <mapperTableEntries name="SEKCONTR" type="id_String"/>
-        <mapperTableEntries name="KEKCONTR" type="id_String"/>
-        <mapperTableEntries name="KFRORDNR" type="id_BigDecimal"/>
-        <mapperTableEntries name="DTSTATCHG" type="id_Date"/>
-        <mapperTableEntries name="DM_EXDATE" type="id_Date" nullable="true"/>
-        <mapperTableEntries name="RECORDMODE" type="id_String" nullable="true"/>
-        <mapperTableEntries name="DSFRUSER" type="id_String" nullable="true"/>
+      <varTables minimized="true" name="Var" sizeState="MINIMIZED"/>
+      <inputTables lookupMode="UNIQUE_MATCH" matchingMode="ALL_MATCHES" name="STG_OBJECT" sizeState="MINIMIZED">
+        <mapperTableEntries name="EXTRACTIONDATE" expression="STG_OBJECT.EXTRACTIONDATE" type="id_Date"/>
+        <mapperTableEntries name="OBJECTID" expression="STG_OBJECT.OBJECTID" type="id_String"/>
+        <mapperTableEntries name="BRANDCODE" expression="STG_OBJECT.BRANDCODE" type="id_String"/>
+        <mapperTableEntries name="RANGECODE" expression="STG_OBJECT.RANGECODE" type="id_String"/>
+        <mapperTableEntries name="NOMENCLATURE" expression="STG_OBJECT.NOMENCLATURE" type="id_String"/>
+        <mapperTableEntries name="GROUPCODE" expression="STG_OBJECT.GROUPCODE" type="id_String"/>
+        <mapperTableEntries name="ENERGYCOD" expression="STG_OBJECT.ENERGYCOD" type="id_String"/>
+        <mapperTableEntries name="TYPECODE" expression="STG_OBJECT.TYPECODE" type="id_String"/>
+        <mapperTableEntries name="LABELCODE" expression="STG_OBJECT.LABELCODE" type="id_String"/>
+        <mapperTableEntries name="ACTDELIVERYDAT" expression="STG_OBJECT.ACTDELIVERYDAT" type="id_Date"/>
+        <mapperTableEntries name="DELIVERYDAT" expression="STG_OBJECT.DELIVERYDAT" type="id_Date"/>
+        <mapperTableEntries name="REGISTNR" expression="STG_OBJECT.REGISTNR" type="id_String"/>
+        <mapperTableEntries name="CHASSISNR" expression="STG_OBJECT.CHASSISNR" type="id_String"/>
+        <mapperTableEntries name="FISCALPW" expression="STG_OBJECT.FISCALPW" type="id_Double"/>
+        <mapperTableEntries name="DINPW" expression="STG_OBJECT.DINPW" type="id_Double"/>
+        <mapperTableEntries name="CUBICCAP" expression="STG_OBJECT.CUBICCAP" type="id_Double"/>
+        <mapperTableEntries name="REGISTDAT" expression="STG_OBJECT.REGISTDAT" type="id_Date"/>
+        <mapperTableEntries name="ROADDAT" expression="STG_OBJECT.ROADDAT" type="id_Date"/>
+        <mapperTableEntries name="YEARPROD" expression="STG_OBJECT.YEARPROD" type="id_Integer"/>
+        <mapperTableEntries name="MILEAGE" expression="STG_OBJECT.MILEAGE" type="id_Double"/>
+        <mapperTableEntries name="RESTMILEAGE" expression="STG_OBJECT.RESTMILEAGE" type="id_Double"/>
+        <mapperTableEntries name="PURPSUSE" expression="STG_OBJECT.PURPSUSE" type="id_String"/>
       </inputTables>
+      <outputTables activateCondensedTool="true" name="DIM_OBJET" sizeState="MINIMIZED">
+        <mapperTableEntries name="EXTRACTION_DATE" expression="STG_OBJECT.EXTRACTIONDATE" type="id_Date"/>
+        <mapperTableEntries name="OBJECT_ID" expression="STG_OBJECT.OBJECTID" type="id_String"/>
+        <mapperTableEntries name="BRAND_CODE" expression="STG_OBJECT.BRANDCODE" type="id_String"/>
+        <mapperTableEntries name="RANGE_CODE" expression="STG_OBJECT.RANGECODE" type="id_String"/>
+        <mapperTableEntries name="NOMENCLATURE" expression="STG_OBJECT.NOMENCLATURE" type="id_String"/>
+        <mapperTableEntries name="GROUP" expression="STG_OBJECT.GROUPCODE" type="id_String"/>
+        <mapperTableEntries name="ENERGY_CODE" expression="STG_OBJECT.ENERGYCOD" type="id_String"/>
+        <mapperTableEntries name="TYPE_CODE" expression="STG_OBJECT.TYPECODE" type="id_String"/>
+        <mapperTableEntries name="LABEL" expression="STG_OBJECT.LABELCODE" type="id_String"/>
+        <mapperTableEntries name="ACTUAL_DELIVERY_DATE" expression="STG_OBJECT.ACTDELIVERYDAT" type="id_Date"/>
+        <mapperTableEntries name="DELIVERY_DATE" expression="STG_OBJECT.DELIVERYDAT" type="id_Date"/>
+        <mapperTableEntries name="REGISTRATION_NUMBER" expression="STG_OBJECT.REGISTNR" type="id_String"/>
+        <mapperTableEntries name="CHASSIS_NUMBER" expression="STG_OBJECT.CHASSISNR" type="id_String"/>
+        <mapperTableEntries name="FISCAL_POWER" expression="STG_OBJECT.FISCALPW" type="id_Double"/>
+        <mapperTableEntries name="DIN_POWER" expression="STG_OBJECT.DINPW" type="id_Double"/>
+        <mapperTableEntries name="CUBIC_CAPACITY" expression="STG_OBJECT.CUBICCAP" type="id_Double"/>
+        <mapperTableEntries name="REGISTRATION_DATE" expression="STG_OBJECT.REGISTDAT" type="id_Date"/>
+        <mapperTableEntries name="ROADING_DATE" expression="STG_OBJECT.ROADDAT" type="id_Date"/>
+        <mapperTableEntries name="YEAR_OF_PRODUCTION" expression="STG_OBJECT.YEARPROD" type="id_Integer"/>
+        <mapperTableEntries name="MILEAGE" expression="STG_OBJECT.MILEAGE" type="id_Double"/>
+        <mapperTableEntries name="RESTITUTION_MILEAGE" expression="STG_OBJECT.RESTMILEAGE" type="id_Double"/>
+        <mapperTableEntries name="PURPOSE_OF_USE" expression="STG_OBJECT.PURPSUSE" type="id_String"/>
+      </outputTables>
     </nodeData>
-  </node>
-  <node componentName="JDBCOutput" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="760" posY="240">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBOutput_1" show="false"/>
-    <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="bmV3amRiYyNKREJDI091dHB1dA" show="false"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_tuf3wCt8EfCQyaJpOm-Miw"/>
-    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="" show="false"/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
-    <elementParameter field="TEXT" name="LABEL" value="__configuration.dataSet.tableName__"/>
-    <elementParameter field="CHECK" name="configuration.dataSet.dataStore.enableDBType" value="false" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.dataSet.dataStore.dbType" value="JDBC" show="false"/>
-    <elementParameter field="CHECK" name="configuration.dataSet.dataStore.setRawUrl" value="true" show="false"/>
-    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.jdbcUrl" value="&quot;jdbc:snowflake://EAMKPTL-JGC28746.snowflakecomputing.com/?user=NOURHENEAZAIEZ&amp;warehouse=COMPUTE_WH&amp;db=FINANCE_PFE&amp;schema=STAGING&quot;"/>
-    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.host" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.port" value="&quot;80&quot;" show="false"/>
-    <elementParameter field="TABLE" name="configuration.dataSet.dataStore.parameters" show="false"/>
-    <elementParameter field="TABLE" name="configuration.dataSet.dataStore.jdbcDriver">
-      <elementValue elementRef="configuration.dataSet.dataStore.jdbcDriver[].path" value="mvn:org.talend.libraries/snowflake-jdbc-3.24.0/6.0.0-SNAPSHOT/jar" id="0"/>
-    </elementParameter>
-    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.dataStore.jdbcClass" value="&quot;net.snowflake.client.jdbc.SnowflakeDriver&quot;"/>
-    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.userId" value="&quot;NOURHENEAZAIEZ&quot;"/>
-    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.password" value="enc:system.encryption.key.v1:yaDlmqfb9DyfCcvlstzby4+qX/dT94Cj4ouj+y2Rzz+4Bw4UhvGMXocGBTM="/>
-    <elementParameter field="CHECK" name="configuration.dataSet.dataStore.useSharedDBConnection" value="false" show="false"/>
-    <elementParameter field="CHECK" name="configuration.dataSet.dataStore.useDataSource" value="false"/>
-    <elementParameter field="MAPPING_TYPE" name="configuration.dataSet.dataStore.dbMapping" value="&quot;snowflake_id&quot;" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.dataSet.dataStore.authenticationType" value="&quot;BASIC&quot;" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.dataSet.dataStore.grantType" value="CLIENT_CREDENTIALS" show="false"/>
-    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.tableName" value="&quot;STG_STATUS&quot;"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.dataAction" value="INSERT"/>
-    <elementParameter field="CHECK" name="configuration.clearData" value="false"/>
-    <elementParameter field="CHECK" name="configuration.dieOnError" value="false"/>
-    <elementParameter field="CHECK" name="configuration.createTableIfNotExists" value="false" show="false"/>
-    <elementParameter field="TEXT" name="configuration.varcharLength" value="-1" show="false"/>
-    <elementParameter field="TABLE" name="configuration.keysForCreateTableAndDML.keys" show="false"/>
-    <elementParameter field="TABLE" name="configuration.keysForDML.keys" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.sortStrategy" value="COMPOUND" show="false"/>
-    <elementParameter field="TABLE" name="configuration.sortKeys" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.distributionStrategy" value="AUTO" show="false"/>
-    <elementParameter field="TABLE" name="configuration.distributionKeys" show="false"/>
-    <elementParameter field="TABLE" name="configuration.ignoreUpdate" show="false"/>
-    <elementParameter field="CHECK" name="configuration.dataSet.dataStore.useAutoCommit" value="false" show="false"/>
-    <elementParameter field="CHECK" name="configuration.dataSet.dataStore.autoCommit" value="false" show="false"/>
-    <elementParameter field="CHECK" name="configuration.dataSet.dataStore.defineProtocol" value="false" show="false"/>
-    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.connectionTimeOut" value="30" show="false"/>
-    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.connectionValidationTimeOut" value="10" show="false"/>
-    <elementParameter field="TEXT" name="configuration.commitEvery" value="10000"/>
-    <elementParameter field="TABLE" name="configuration.additionalColumns"/>
-    <elementParameter field="CHECK" name="configuration.useFieldOptions" value="false"/>
-    <elementParameter field="TABLE" name="configuration.fieldOptions" show="false">
-      <elementValue elementRef="configuration.fieldOptions[].columnName" value="CONTRACTID" id="0"/>
-      <elementValue elementRef="configuration.fieldOptions[].deleteKey" value="false" id="1"/>
-      <elementValue elementRef="configuration.fieldOptions[].insertable" value="false" id="2"/>
-      <elementValue elementRef="configuration.fieldOptions[].updatable" value="false" id="3"/>
-      <elementValue elementRef="configuration.fieldOptions[].updateKey" value="false" id="4"/>
-      <elementValue elementRef="configuration.fieldOptions[].columnName" value="ORDERNR" id="5"/>
-      <elementValue elementRef="configuration.fieldOptions[].deleteKey" value="false" id="6"/>
-      <elementValue elementRef="configuration.fieldOptions[].insertable" value="false" id="7"/>
-      <elementValue elementRef="configuration.fieldOptions[].updatable" value="false" id="8"/>
-      <elementValue elementRef="configuration.fieldOptions[].updateKey" value="false" id="9"/>
-      <elementValue elementRef="configuration.fieldOptions[].columnName" value="CONTRACTSTATUS" id="10"/>
-      <elementValue elementRef="configuration.fieldOptions[].deleteKey" value="false" id="11"/>
-      <elementValue elementRef="configuration.fieldOptions[].insertable" value="false" id="12"/>
-      <elementValue elementRef="configuration.fieldOptions[].updatable" value="false" id="13"/>
-      <elementValue elementRef="configuration.fieldOptions[].updateKey" value="false" id="14"/>
-      <elementValue elementRef="configuration.fieldOptions[].columnName" value="DATESTATCHANGE" id="15"/>
-      <elementValue elementRef="configuration.fieldOptions[].deleteKey" value="false" id="16"/>
-      <elementValue elementRef="configuration.fieldOptions[].insertable" value="false" id="17"/>
-      <elementValue elementRef="configuration.fieldOptions[].updatable" value="false" id="18"/>
-      <elementValue elementRef="configuration.fieldOptions[].updateKey" value="false" id="19"/>
-      <elementValue elementRef="configuration.fieldOptions[].columnName" value="EXTRACTIONDATE" id="20"/>
-      <elementValue elementRef="configuration.fieldOptions[].deleteKey" value="false" id="21"/>
-      <elementValue elementRef="configuration.fieldOptions[].insertable" value="false" id="22"/>
-      <elementValue elementRef="configuration.fieldOptions[].updatable" value="false" id="23"/>
-      <elementValue elementRef="configuration.fieldOptions[].updateKey" value="false" id="24"/>
-    </elementParameter>
-    <elementParameter field="CHECK" name="configuration.debugQuery" value="false"/>
-    <elementParameter field="CHECK" name="configuration.useBatch" value="true"/>
-    <elementParameter field="TEXT" name="configuration.batchSize" value="10000"/>
-    <elementParameter field="CHECK" name="configuration.useQueryTimeout" value="false"/>
-    <elementParameter field="TEXT" name="configuration.queryTimeout" value="30" show="false"/>
-    <elementParameter field="CHECK" name="configuration.rewriteBatchedStatements" value="true" show="false"/>
-    <elementParameter field="CHECK" name="configuration.useOriginColumnName" value="true" show="false"/>
-    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
-    <elementParameter field="TECHNICAL" name="configuration.dataSet.__version" value="-1" show="false"/>
-    <elementParameter field="TECHNICAL" name="configuration.dataSet.dataStore.__version" value="-1" show="false"/>
-    <metadata connector="FLOW" label="STG_STATUS" name="tDBOutput_1">
-      <column comment="" key="true" length="12" name="CONTRACTID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="true" length="10" name="ORDERNR" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="true" length="4" name="CONTRACTSTATUS" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="true" length="0" name="DATESTATCHANGE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="0" name="EXTRACTIONDATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-    </metadata>
-    <metadata connector="LOOKUP" name="LOOKUP"/>
-    <metadata connector="MERGE" name="MERGE"/>
-    <metadata connector="reject" label="STG_STATUS" name="reject">
-      <column comment="" key="true" length="12" name="CONTRACTID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="true" length="10" name="ORDERNR" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="true" length="4" name="CONTRACTSTATUS" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="true" length="0" name="DATESTATCHANGE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="0" name="EXTRACTIONDATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="255" name="errorCode" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="255" name="errorMessage" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-    </metadata>
-  </node>
-  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFileInputExcel_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputExcel_1" target="tMap_1">
-    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
-  </connection>
-  <connection connectorName="FLOW" label="statu" lineStyle="0" metaname="statu" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tDBOutput_1">
-    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="statu" show="false"/>
-  </connection>
-  <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputExcel_1" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
-  </subjob>
+  </node> -->
 </talendfile:ProcessType>

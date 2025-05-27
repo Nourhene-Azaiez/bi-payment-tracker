@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
-  <TalendMetadata:TacokitDatabaseConnection xmi:id="_tuge0Ct8EfCQyaJpOm-Miw" name="Snowflake" properties="configuration.parameters&#xA;&#xA;[]&#xA;&#xA;configuration.port&#xA;&#xA;80&#xA;&#xA;configuration.dbMapping&#xA;&#xA;snowflake_id&#xA;&#xA;configuration.password&#xA;&#xA;enc:system.encryption.key.v1:G1eYj2esGR85LCUN2ySfO/VfHH+CCZh7KwUZMxzDUzoDZ3JTZ2xyV/iE&#xA;&#xA;configuration.useDataSource&#xA;&#xA;false&#xA;&#xA;__TACOKIT_CONFIG_ID&#xA;&#xA;bmV3amRiYyNKREJDI2RhdGFzdG9yZSNKREJDRGF0YVN0b3Jl&#xA;&#xA;configuration.jdbcClass&#xA;&#xA;net.snowflake.client.jdbc.SnowflakeDriver&#xA;&#xA;configuration.useSharedDBConnection&#xA;&#xA;false&#xA;&#xA;configuration.grantType&#xA;&#xA;CLIENT_CREDENTIALS&#xA;&#xA;configuration.enableDBType&#xA;&#xA;false&#xA;&#xA;configuration.jdbcDriver&#xA;&#xA;[{configuration.jdbcDriver[].path=mvn:org.talend.libraries/snowflake-jdbc-3.24.0/6.0.0-SNAPSHOT/jar}]&#xA;&#xA;configuration.authenticationType&#xA;&#xA;BASIC&#xA;&#xA;configuration.__version&#xA;&#xA;-1&#xA;&#xA;configuration.userId&#xA;&#xA;NOURHENEAZAIEZ&#xA;&#xA;configuration.host&#xA;&#xA;&#xA;&#xA;configuration.jdbcUrl&#xA;&#xA;jdbc:snowflake://EAMKPTL-JGC28746.snowflakecomputing.com/?user=NOURHENEAZAIEZ&amp;warehouse=COMPUTE_WH&amp;db=FINANCE_PFE&amp;schema=STAGING&#xA;&#xA;configuration.setRawUrl&#xA;&#xA;true&#xA;&#xA;__TACOKIT_CONFIG_PARENT_ID&#xA;&#xA;bmV3amRiYyNKREJD&#xA;&#xA;" dataPackage="_0wsvMCt8EfCQyaJpOm-Miw _0wsvNSt8EfCQyaJpOm-Miw _0wsvTCt8EfCQyaJpOm-Miw _0wsvTyt8EfCQyaJpOm-Miw" DatabaseType="JDBC" SID="" ProductId="JDBC" UiSchema="" supportNLS="false">
+  <TalendMetadata:TacokitDatabaseConnection xmi:id="_tuge0Ct8EfCQyaJpOm-Miw" name="Snowflake_STAGING" properties="configuration.parameters&#xA;&#xA;[]&#xA;&#xA;configuration.port&#xA;&#xA;80&#xA;&#xA;configuration.dbMapping&#xA;&#xA;snowflake_id&#xA;&#xA;configuration.password&#xA;&#xA;enc:system.encryption.key.v1:G1eYj2esGR85LCUN2ySfO/VfHH+CCZh7KwUZMxzDUzoDZ3JTZ2xyV/iE&#xA;&#xA;configuration.useDataSource&#xA;&#xA;false&#xA;&#xA;__TACOKIT_CONFIG_ID&#xA;&#xA;bmV3amRiYyNKREJDI2RhdGFzdG9yZSNKREJDRGF0YVN0b3Jl&#xA;&#xA;configuration.jdbcClass&#xA;&#xA;net.snowflake.client.jdbc.SnowflakeDriver&#xA;&#xA;configuration.useSharedDBConnection&#xA;&#xA;false&#xA;&#xA;configuration.grantType&#xA;&#xA;CLIENT_CREDENTIALS&#xA;&#xA;configuration.enableDBType&#xA;&#xA;false&#xA;&#xA;configuration.jdbcDriver&#xA;&#xA;[{configuration.jdbcDriver[].path=mvn:org.talend.libraries/snowflake-jdbc-3.24.0/6.0.0-SNAPSHOT/jar}]&#xA;&#xA;configuration.authenticationType&#xA;&#xA;BASIC&#xA;&#xA;configuration.__version&#xA;&#xA;-1&#xA;&#xA;configuration.userId&#xA;&#xA;NOURHENEAZAIEZ&#xA;&#xA;configuration.host&#xA;&#xA;&#xA;&#xA;configuration.jdbcUrl&#xA;&#xA;jdbc:snowflake://EAMKPTL-JGC28746.snowflakecomputing.com/?user=NOURHENEAZAIEZ&amp;warehouse=COMPUTE_WH&amp;db=FINANCE_PFE&amp;schema=STAGING&#xA;&#xA;configuration.setRawUrl&#xA;&#xA;true&#xA;&#xA;__TACOKIT_CONFIG_PARENT_ID&#xA;&#xA;bmV3amRiYyNKREJD&#xA;&#xA;" dataPackage="_0wsvMCt8EfCQyaJpOm-Miw _0wsvNSt8EfCQyaJpOm-Miw _0wsvTCt8EfCQyaJpOm-Miw _0wsvTyt8EfCQyaJpOm-Miw" DatabaseType="JDBC" SID="" ProductId="JDBC" UiSchema="" supportNLS="false">
     <taggedValue xmi:id="_0QwD0Ct8EfCQyaJpOm-Miw" tag="Status" value=""/>
     <taggedValue xmi:id="_0QwD0St8EfCQyaJpOm-Miw" tag="Version" value="0.1"/>
     <taggedValue xmi:id="_0QwD0it8EfCQyaJpOm-Miw" tag="Purpose" value=""/>
@@ -16,7 +16,7 @@
     <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_0wsvMit8EfCQyaJpOm-Miw" name="INFORMATION_SCHEMA"/>
     <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_0wsvMyt8EfCQyaJpOm-Miw" name="PUBLIC"/>
     <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_0wsvNCt8EfCQyaJpOm-Miw" name="STAGING">
-      <ownedElement xsi:type="relational:TdTable" xmi:id="_WgGfoDsAEfCP8fVx4LvCzg" name="DIM_CONTRAT" id="_WgF4kDsAEfCP8fVx4LvCzg" label="DIM_CONTRAT" tableType="TABLE">
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_WgGfoDsAEfCP8fVx4LvCzg" name="DIM_CONTRAT" properties="deleted&#xA;&#xA;true&#xA;&#xA;" id="_WgF4kDsAEfCP8fVx4LvCzg" label="DIM_CONTRAT" tableType="TABLE">
         <feature xsi:type="relational:TdColumn" xmi:id="_WgGfoTsAEfCP8fVx4LvCzg" name="CONTRACT_ID" label="CONTRACT_ID" length="12" sourceType="VARCHAR" talendType="id_String">
           <taggedValue xmi:id="_WgGfojsAEfCP8fVx4LvCzg" tag="Comment" value=""/>
           <initialValue xsi:type="relational:TdExpression" xmi:id="_WgGfozsAEfCP8fVx4LvCzg" language="COLUMN_DEF"/>
@@ -238,7 +238,7 @@
           <sqlDataType xmi:id="_WgGgUDsAEfCP8fVx4LvCzg" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
         </feature>
       </ownedElement>
-      <ownedElement xsi:type="relational:TdTable" xmi:id="_WrOKgDsAEfCP8fVx4LvCzg" name="DIM_TEMPS" id="_WrNjcDsAEfCP8fVx4LvCzg" label="DIM_TEMPS" tableType="TABLE">
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_WrOKgDsAEfCP8fVx4LvCzg" name="DIM_TEMPS" properties="deleted&#xA;&#xA;true&#xA;&#xA;" id="_WrNjcDsAEfCP8fVx4LvCzg" label="DIM_TEMPS" tableType="TABLE">
         <feature xsi:type="relational:TdColumn" xmi:id="_WrOKgTsAEfCP8fVx4LvCzg" name="TIME_ID" label="TIME_ID" length="38" sourceType="NUMBER" talendType="id_BigDecimal" key="true" nullable="false">
           <taggedValue xmi:id="_WrOKgjsAEfCP8fVx4LvCzg" tag="Comment" value=""/>
           <initialValue xsi:type="relational:TdExpression" xmi:id="_WrOKgzsAEfCP8fVx4LvCzg" language="COLUMN_DEF"/>
@@ -290,7 +290,7 @@
           <sqlDataType xmi:id="_WrOKqDsAEfCP8fVx4LvCzg" name="BOOLEAN" javaDataType="16" nullable="columnNullable"/>
         </feature>
       </ownedElement>
-      <ownedElement xsi:type="relational:TdTable" xmi:id="_W13UQDsAEfCP8fVx4LvCzg" name="DIM_OBJET" id="_W12tMDsAEfCP8fVx4LvCzg" label="DIM_OBJET" tableType="TABLE">
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_W13UQDsAEfCP8fVx4LvCzg" name="DIM_OBJET" properties="deleted&#xA;&#xA;true&#xA;&#xA;" id="_W12tMDsAEfCP8fVx4LvCzg" label="DIM_OBJET" tableType="TABLE">
         <feature xsi:type="relational:TdColumn" xmi:id="_W13UQTsAEfCP8fVx4LvCzg" name="EXTRACTION_DATE" label="EXTRACTION_DATE" sourceType="DATE" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
           <taggedValue xmi:id="_W13UQjsAEfCP8fVx4LvCzg" tag="Comment" value=""/>
           <initialValue xsi:type="relational:TdExpression" xmi:id="_W13UQzsAEfCP8fVx4LvCzg" language="COLUMN_DEF"/>
@@ -402,7 +402,7 @@
           <sqlDataType xmi:id="_W13UmDsAEfCP8fVx4LvCzg" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
         </feature>
       </ownedElement>
-      <ownedElement xsi:type="relational:TdTable" xmi:id="_XAYiMTsAEfCP8fVx4LvCzg" name="DIM_CUSTOMER" id="_XAYiMDsAEfCP8fVx4LvCzg" label="DIM_CUSTOMER" tableType="TABLE">
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_XAYiMTsAEfCP8fVx4LvCzg" name="DIM_CUSTOMER" properties="deleted&#xA;&#xA;true&#xA;&#xA;" id="_XAYiMDsAEfCP8fVx4LvCzg" label="DIM_CUSTOMER" tableType="TABLE">
         <feature xsi:type="relational:TdColumn" xmi:id="_XAYiMjsAEfCP8fVx4LvCzg" name="CUSTOMER_ID" label="CUSTOMER_ID" length="11" sourceType="VARCHAR" talendType="id_String">
           <taggedValue xmi:id="_XAYiMzsAEfCP8fVx4LvCzg" tag="Comment" value=""/>
           <initialValue xsi:type="relational:TdExpression" xmi:id="_XAYiNDsAEfCP8fVx4LvCzg" language="COLUMN_DEF"/>
