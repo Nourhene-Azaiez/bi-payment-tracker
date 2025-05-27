@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_ygQdIDpPEfCJ8f3_K5Tz5Q" name="RAW_DATA/EKOINVIT" id="_ygOn8DpPEfCJ8f3_K5Tz5Q" dataPackage="_ygQdITpPEfCJ8f3_K5Tz5Q" Server="Localhost 127.0.0.1" FilePath="C:/Users/user/Desktop/PFE/DATA/EKOINVIT.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Codes" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="Codes:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+    <sheetColumns>J</sheetColumns>
+    <sheetColumns>K</sheetColumns>
+    <sheetColumns>L</sheetColumns>
+    <sheetColumns>M</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_ygQdITpPEfCJ8f3_K5Tz5Q" name="default" dataManager="_ygQdIDpPEfCJ8f3_K5Tz5Q">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_ygQdIjpPEfCJ8f3_K5Tz5Q" id="_dMpVkDpPEfCJ8f3_K5Tz5Q" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ygQdIzpPEfCJ8f3_K5Tz5Q" label="KFRBILNR" length="11" talendType="id_String" key="true" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ygQdJDpPEfCJ8f3_K5Tz5Q" label="KFRINLID" length="13" talendType="id_String" key="true" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ygQdJTpPEfCJ8f3_K5Tz5Q" label="DM_EXDATE" length="-1" talendType="id_Date" pattern="&quot;dd/MM/yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ygQdJjpPEfCJ8f3_K5Tz5Q" label="KFRLINID" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ygQdJzpPEfCJ8f3_K5Tz5Q" label="DTFRPBEG" length="-1" talendType="id_Date" pattern="&quot;dd/MM/yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ygQdKDpPEfCJ8f3_K5Tz5Q" label="DTFRPEND" length="-1" talendType="id_Date" pattern="&quot;dd/MM/yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ygQdKTpPEfCJ8f3_K5Tz5Q" label="KFRSUBLB" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ygQdKjpPEfCJ8f3_K5Tz5Q" label="AFRNOTAX" length="6" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ygQdKzpPEfCJ8f3_K5Tz5Q" label="AFRYETAX" length="7" precision="4" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ygQdLDpPEfCJ8f3_K5Tz5Q" label="AFRTAXAM" length="6" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ygQdLTpPEfCJ8f3_K5Tz5Q" label="AFRBATAX" length="7" precision="4" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ygQdLjpPEfCJ8f3_K5Tz5Q" label="CURRENCY" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ygQdLzpPEfCJ8f3_K5Tz5Q" label="RECORDMODE" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

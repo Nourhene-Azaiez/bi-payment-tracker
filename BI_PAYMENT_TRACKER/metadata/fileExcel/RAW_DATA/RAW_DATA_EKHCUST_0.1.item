@@ -87,7 +87,7 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_12SRCDjfEfCs0PTu40-3sQ" label="DTFOUND" length="-1" talendType="id_Date" pattern="&quot;dd/MM/yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_12SRCTjfEfCs0PTu40-3sQ" label="SURNAME" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_12SRCjjfEfCs0PTu40-3sQ" label="FIRSTNAME" length="19" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_12SRCzjfEfCs0PTu40-3sQ" label="EKQCODE" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_12SRCzjfEfCs0PTu40-3sQ" label="EKQCODE" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_12SRDDjfEfCs0PTu40-3sQ" label="EKPTCODE" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_12SRDTjfEfCs0PTu40-3sQ" label="FFRVWBANK" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_12SRDjjfEfCs0PTu40-3sQ" label="FFRVWFI" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;"/>
@@ -107,7 +107,7 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_12SRHDjfEfCs0PTu40-3sQ" label="KFREKCS1T" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_12SRHTjfEfCs0PTu40-3sQ" label="FRSSCOD" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_12SRHjjfEfCs0PTu40-3sQ" label="KFRCOMP" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_12SRHzjfEfCs0PTu40-3sQ" label="KFRAPE" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_12SRHzjfEfCs0PTu40-3sQ" label="KFRAPE" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_12SRIDjfEfCs0PTu40-3sQ" label="KSFFINGP" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_12SRITjfEfCs0PTu40-3sQ" label="KBSCUCLAS" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_12SRIjjfEfCs0PTu40-3sQ" label="EKBRAND" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
