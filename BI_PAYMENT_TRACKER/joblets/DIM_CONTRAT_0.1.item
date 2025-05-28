@@ -1127,7 +1127,7 @@
       <elementParameter field="EXTERNAL" name="MAP" value=""/>
       <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
       <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
-      <elementParameter field="IMAGE" name="PREVIEW" value="_MVmUgDjREfCs0PTu40-3sQ-tMap_2-PREVIEW.bmp"/>
+      <elementParameter field="IMAGE" name="PREVIEW" value="_8EQ6MDskEfCP8fVx4LvCzg-tMap_2-PREVIEW.bmp"/>
       <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
       <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
       <elementParameter field="TEXT" name="LEVENSHTEIN" value="0" show="false"/>

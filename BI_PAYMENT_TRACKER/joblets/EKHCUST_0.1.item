@@ -624,7 +624,456 @@
         <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       </metadata>
     </node>
-    <node componentName="tConvertType" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="360" posY="200">
+    <node componentName="tUniqRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="280" posY="200">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tUniqRow_1" show="false"/>
+      <elementParameter field="TABLE" name="UNIQUE_KEY">
+        <elementValue elementRef="SCHEMA_COLUMN" value="KFREKCUST" id="0"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="true" id="1"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="2"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="DTVALIDFR" id="3"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="4"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="5"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="DTVALIDTO" id="6"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="7"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="8"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="CRM_BEGDAT" id="9"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="10"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="11"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="CRM_ENDDAT" id="12"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="13"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="14"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="BIRTHDAY" id="15"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="16"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="17"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="DTSTCOIM" id="18"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="19"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="20"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="DTENCOIM" id="21"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="22"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="23"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="DTFOUND" id="24"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="25"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="26"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="SURNAME" id="27"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="28"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="29"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="FIRSTNAME" id="30"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="31"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="32"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="EKQCODE" id="33"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="34"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="35"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="EKPTCODE" id="36"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="37"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="38"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="FFRVWBANK" id="39"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="40"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="41"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="FFRVWFI" id="42"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="43"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="44"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="EKSIREN" id="45"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="46"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="47"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="EKSIRET" id="48"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="49"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="50"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="EKMNAME" id="51"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="52"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="53"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="EKCCODE" id="54"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="55"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="56"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="EKCSCODE" id="57"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="58"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="59"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="FEKOWN" id="60"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="61"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="62"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="SEKSTMAT" id="63"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="64"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="65"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="HC_CHILDNO" id="66"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="67"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="68"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="EKPHONENR" id="69"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="70"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="71"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="FAX_NUM" id="72"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="73"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="74"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="EMAIL" id="75"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="76"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="77"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="EKMOBILE" id="78"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="79"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="80"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="EKMAIDN" id="81"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="82"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="83"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="KFREKCS1T" id="84"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="85"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="86"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="FRSSCOD" id="87"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="88"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="89"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="KFRCOMP" id="90"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="91"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="92"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="KFRAPE" id="93"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="94"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="95"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="KSFFINGP" id="96"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="97"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="98"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="KBSCUCLAS" id="99"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="100"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="101"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="EKBRAND" id="102"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="103"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="104"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="KBUSINTYP" id="105"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="106"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="107"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="QEKCHILD" id="108"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="109"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="110"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="EKJCODE" id="111"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="112"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="113"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="COUNTRY" id="114"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="115"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="116"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="LOCITYB" id="117"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="118"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="119"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="AEKREV" id="120"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="121"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="122"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="AEKAREV" id="123"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="124"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="125"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="AEKCHARG" id="126"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="127"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="128"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="EKSEN" id="129"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="130"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="131"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="CKNOEMPLO" id="132"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="133"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="134"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="CURRENCY" id="135"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="136"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="137"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="DTDEBCCT" id="138"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="139"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="140"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="DTFINCCT" id="141"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="142"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="143"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="KFRCLMCOD" id="144"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="145"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="146"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="KRFCLSCOD" id="147"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="148"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="149"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="KRTCOMGP" id="150"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="151"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="152"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="RECORDMODE" id="153"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="154"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="155"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="TB_CHGUSER" id="156"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="157"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="158"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="TB_ACIBAN" id="159"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="160"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="161"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="TB_PRVERS" id="162"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="163"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="164"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="TB_ACNAME" id="165"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="166"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="167"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="TB_GLCOMP" id="168"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="169"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="170"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="NKPSTDUED" id="171"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="172"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="173"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="AINSHCUS" id="174"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="175"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="176"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="ASUBVWAG" id="177"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="178"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="179"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="TPBCREACT" id="180"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="181"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="182"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="KBCPREVAC" id="183"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="184"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="185"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="APBCICHAN" id="186"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="187"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="188"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="DTFOLLUP" id="189"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="190"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="191"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="TPBCCLCLS" id="192"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="193"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="194"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="TPBCCLKEY" id="195"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="196"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="197"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="DTBCREACT" id="198"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="199"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="200"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="TPBCRACLS" id="201"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="202"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="203"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="TPBCRAKEY" id="204"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="205"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="206"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="TPBCSHRID" id="207"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="208"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="209"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="TPBCEBKEY" id="210"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="211"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="212"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="FRATEUMKT" id="213"/>
+        <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="214"/>
+        <elementValue elementRef="CASE_SENSITIVE" value="false" id="215"/>
+      </elementParameter>
+      <elementParameter field="CHECK" name="ONLY_ONCE_EACH_DUPLICATED_KEY" value="false"/>
+      <elementParameter field="CHECK" name="IS_VIRTUAL_COMPONENT" value="false"/>
+      <elementParameter field="OPENED_LIST" name="BUFFER_SIZE" value="M" show="false"/>
+      <elementParameter field="DIRECTORY" name="TEMP_DIRECTORY" value="" show="false"/>
+      <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" label="metadata" name="tUniqRow_1">
+        <column comment="" key="true" length="10" name="KFREKCUST" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="DTVALIDFR" nullable="true" pattern="&quot;dd/MM/yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="DTVALIDTO" nullable="true" pattern="&quot;dd/MM/yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="CRM_BEGDAT" nullable="true" pattern="&quot;dd/MM/yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="CRM_ENDDAT" nullable="true" pattern="&quot;dd/MM/yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="BIRTHDAY" nullable="true" pattern="&quot;dd/MM/yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="DTSTCOIM" nullable="true" pattern="&quot;dd/MM/yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="DTENCOIM" nullable="true" pattern="&quot;dd/MM/yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="DTFOUND" nullable="true" pattern="&quot;dd/MM/yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+        <column comment="" key="false" length="20" name="SURNAME" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="19" name="FIRSTNAME" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="EKQCODE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="6" name="EKPTCODE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="1" name="FFRVWBANK" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Character" usefulColumn="true"/>
+        <column comment="" key="false" length="1" name="FFRVWFI" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Character" usefulColumn="true"/>
+        <column comment="" key="false" length="9" name="EKSIREN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="14" name="EKSIRET" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="26" name="EKMNAME" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="6" name="EKCCODE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="4" name="EKCSCODE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="1" name="FEKOWN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="1" name="SEKSTMAT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Character" usefulColumn="true"/>
+        <column comment="" key="false" length="1" name="HC_CHILDNO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="22" name="EKPHONENR" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="22" name="FAX_NUM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="27" name="EMAIL" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="22" name="EKMOBILE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="10" name="EKMAIDN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="4" name="KFREKCS1T" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="16" name="FRSSCOD" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="9" name="KFRCOMP" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="KFRAPE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="13" name="KSFFINGP" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="1" name="KBSCUCLAS" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Character" usefulColumn="true"/>
+        <column comment="" key="false" length="4" name="EKBRAND" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="4" name="KBUSINTYP" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="1" name="QEKCHILD" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="5" name="EKJCODE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="9" name="COUNTRY" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="18" name="LOCITYB" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="7" name="AEKREV" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="6" name="AEKAREV" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="7" name="AEKCHARG" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="2" name="EKSEN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="4" name="CKNOEMPLO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="3" name="CURRENCY" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="DTDEBCCT" nullable="true" pattern="&quot;dd/MM/yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="DTFINCCT" nullable="true" pattern="&quot;dd/MM/yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="KFRCLMCOD" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="KRFCLSCOD" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="KRTCOMGP" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="RECORDMODE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="TB_CHGUSER" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="TB_ACIBAN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="TB_PRVERS" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="TB_ACNAME" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="TB_GLCOMP" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="NKPSTDUED" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="AINSHCUS" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="ASUBVWAG" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="TPBCREACT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="KBCPREVAC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="APBCICHAN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="DTFOLLUP" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="TPBCCLCLS" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="TPBCCLKEY" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="DTBCREACT" nullable="true" pattern="&quot;dd/MM/yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="TPBCRACLS" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="TPBCRAKEY" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="TPBCSHRID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="TPBCEBKEY" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="FRATEUMKT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      </metadata>
+      <metadata connector="UNIQUE" label="metadata" name="UNIQUE">
+        <column comment="" key="true" length="10" name="KFREKCUST" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="DTVALIDFR" nullable="true" pattern="&quot;dd/MM/yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="DTVALIDTO" nullable="true" pattern="&quot;dd/MM/yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="CRM_BEGDAT" nullable="true" pattern="&quot;dd/MM/yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="CRM_ENDDAT" nullable="true" pattern="&quot;dd/MM/yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="BIRTHDAY" nullable="true" pattern="&quot;dd/MM/yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="DTSTCOIM" nullable="true" pattern="&quot;dd/MM/yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="DTENCOIM" nullable="true" pattern="&quot;dd/MM/yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="DTFOUND" nullable="true" pattern="&quot;dd/MM/yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+        <column comment="" key="false" length="20" name="SURNAME" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="19" name="FIRSTNAME" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="EKQCODE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="6" name="EKPTCODE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="1" name="FFRVWBANK" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Character" usefulColumn="true"/>
+        <column comment="" key="false" length="1" name="FFRVWFI" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Character" usefulColumn="true"/>
+        <column comment="" key="false" length="9" name="EKSIREN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="14" name="EKSIRET" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="26" name="EKMNAME" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="6" name="EKCCODE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="4" name="EKCSCODE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="1" name="FEKOWN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="1" name="SEKSTMAT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Character" usefulColumn="true"/>
+        <column comment="" key="false" length="1" name="HC_CHILDNO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="22" name="EKPHONENR" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="22" name="FAX_NUM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="27" name="EMAIL" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="22" name="EKMOBILE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="10" name="EKMAIDN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="4" name="KFREKCS1T" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="16" name="FRSSCOD" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="9" name="KFRCOMP" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="KFRAPE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="13" name="KSFFINGP" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="1" name="KBSCUCLAS" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Character" usefulColumn="true"/>
+        <column comment="" key="false" length="4" name="EKBRAND" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="4" name="KBUSINTYP" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="1" name="QEKCHILD" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="5" name="EKJCODE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="9" name="COUNTRY" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="18" name="LOCITYB" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="7" name="AEKREV" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="6" name="AEKAREV" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="7" name="AEKCHARG" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="2" name="EKSEN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="4" name="CKNOEMPLO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="3" name="CURRENCY" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="DTDEBCCT" nullable="true" pattern="&quot;dd/MM/yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="DTFINCCT" nullable="true" pattern="&quot;dd/MM/yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="KFRCLMCOD" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="KRFCLSCOD" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="KRTCOMGP" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="RECORDMODE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="TB_CHGUSER" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="TB_ACIBAN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="TB_PRVERS" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="TB_ACNAME" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="TB_GLCOMP" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="NKPSTDUED" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="AINSHCUS" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="ASUBVWAG" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="TPBCREACT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="KBCPREVAC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="APBCICHAN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="DTFOLLUP" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="TPBCCLCLS" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="TPBCCLKEY" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="DTBCREACT" nullable="true" pattern="&quot;dd/MM/yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="TPBCRACLS" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="TPBCRAKEY" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="TPBCSHRID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="TPBCEBKEY" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="FRATEUMKT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      </metadata>
+      <metadata connector="DUPLICATE" label="metadata" name="DUPLICATE">
+        <column comment="" key="true" length="10" name="KFREKCUST" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="DTVALIDFR" nullable="true" pattern="&quot;dd/MM/yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="DTVALIDTO" nullable="true" pattern="&quot;dd/MM/yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="CRM_BEGDAT" nullable="true" pattern="&quot;dd/MM/yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="CRM_ENDDAT" nullable="true" pattern="&quot;dd/MM/yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="BIRTHDAY" nullable="true" pattern="&quot;dd/MM/yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="DTSTCOIM" nullable="true" pattern="&quot;dd/MM/yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="DTENCOIM" nullable="true" pattern="&quot;dd/MM/yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="DTFOUND" nullable="true" pattern="&quot;dd/MM/yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+        <column comment="" key="false" length="20" name="SURNAME" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="19" name="FIRSTNAME" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="EKQCODE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="6" name="EKPTCODE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="1" name="FFRVWBANK" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Character" usefulColumn="true"/>
+        <column comment="" key="false" length="1" name="FFRVWFI" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Character" usefulColumn="true"/>
+        <column comment="" key="false" length="9" name="EKSIREN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="14" name="EKSIRET" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="26" name="EKMNAME" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="6" name="EKCCODE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="4" name="EKCSCODE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="1" name="FEKOWN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="1" name="SEKSTMAT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Character" usefulColumn="true"/>
+        <column comment="" key="false" length="1" name="HC_CHILDNO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="22" name="EKPHONENR" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="22" name="FAX_NUM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="27" name="EMAIL" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="22" name="EKMOBILE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="10" name="EKMAIDN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="4" name="KFREKCS1T" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="16" name="FRSSCOD" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="9" name="KFRCOMP" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="KFRAPE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="13" name="KSFFINGP" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="1" name="KBSCUCLAS" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Character" usefulColumn="true"/>
+        <column comment="" key="false" length="4" name="EKBRAND" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="4" name="KBUSINTYP" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="1" name="QEKCHILD" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="5" name="EKJCODE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="9" name="COUNTRY" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="18" name="LOCITYB" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="7" name="AEKREV" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="6" name="AEKAREV" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="7" name="AEKCHARG" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="2" name="EKSEN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="4" name="CKNOEMPLO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="3" name="CURRENCY" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="DTDEBCCT" nullable="true" pattern="&quot;dd/MM/yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="DTFINCCT" nullable="true" pattern="&quot;dd/MM/yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="KFRCLMCOD" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="KRFCLSCOD" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="KRTCOMGP" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="RECORDMODE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="TB_CHGUSER" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="TB_ACIBAN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="TB_PRVERS" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="TB_ACNAME" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="TB_GLCOMP" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="NKPSTDUED" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="AINSHCUS" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="ASUBVWAG" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="TPBCREACT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="KBCPREVAC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="APBCICHAN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="DTFOLLUP" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="TPBCCLCLS" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="TPBCCLKEY" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="DTBCREACT" nullable="true" pattern="&quot;dd/MM/yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="TPBCRACLS" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="TPBCRAKEY" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="TPBCSHRID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="TPBCEBKEY" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="FRATEUMKT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tConvertType" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="440" posY="200">
       <elementParameter field="TEXT" name="UNIQUE_NAME" value="tConvertType_1" show="false"/>
       <elementParameter field="CHECK" name="AUTOCAST" value="true"/>
       <elementParameter field="TABLE" name="MANUALTABLE" show="false"/>
@@ -782,12 +1231,12 @@
         <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       </metadata>
     </node>
-    <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="600" posY="200">
+    <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="640" posY="200">
       <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_1" show="false"/>
       <elementParameter field="EXTERNAL" name="MAP" value=""/>
       <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
       <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
-      <elementParameter field="IMAGE" name="PREVIEW" value="_MVmUgDjREfCs0PTu40-3sQ-tMap_1-PREVIEW.bmp"/>
+      <elementParameter field="IMAGE" name="PREVIEW" value="_1dk10DScEfC5ta-bnfDwiQ-tMap_1-PREVIEW.bmp"/>
       <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
       <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
       <elementParameter field="TEXT" name="LEVENSHTEIN" value="0" show="false"/>
@@ -946,7 +1395,7 @@
         </column>
       </metadata>
       <nodeData xsi:type="TalendMapper:MapperData">
-        <uiProperties shellMaximized="true"/>
+        <uiProperties/>
         <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
         <outputTables sizeState="INTERMEDIATE" name="ekhcust">
           <mapperTableEntries name="VALIDFROM" expression="row2.DTVALIDFR" type="id_Date" nullable="true"/>
@@ -1683,9 +2132,13 @@
         <column comment="" defaultValue="" key="false" length="255" name="errorMessage" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       </metadata>
     </node>
-    <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFileInputExcel_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputExcel_1" target="tConvertType_1">
+    <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFileInputExcel_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputExcel_1" target="tUniqRow_1">
       <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
       <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
+    </connection>
+    <connection connectorName="UNIQUE" label="row3" lineStyle="0" metaname="UNIQUE" offsetLabelX="0" offsetLabelY="0" source="tUniqRow_1" target="tConvertType_1">
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="row3" show="false"/>
     </connection>
     <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tConvertType_1" offsetLabelX="0" offsetLabelY="0" source="tConvertType_1" target="tMap_1">
       <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>

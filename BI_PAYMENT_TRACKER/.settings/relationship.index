@@ -1,5 +1,32 @@
 [ {
   "baseItem" : {
+    "id" : "_2A6t4Du3EfCqi-ac2S8yKg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_CFqJ0DsCEfCP8fVx4LvCzg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_tuf3wCt8EfCQyaJpOm-Miw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_tuf3wCt8EfCQyaJpOm-Miw - STG_CONTRACT",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_tuf3wCt8EfCQyaJpOm-Miw - STG_DETINVOICE",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_tuf3wCt8EfCQyaJpOm-Miw - STG_INVOICE",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_FWn3wCy-EfCt7rgiT2Mn9w",
     "version" : "0.1",
     "type" : "job"
@@ -247,6 +274,29 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_aImAgDvVEfCrua3AXN9Wog",
+    "version" : "0.1",
+    "type" : "joblet"
+  },
+  "relatedItems" : [ {
+    "id" : "_CFqJ0DsCEfCP8fVx4LvCzg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_tuf3wCt8EfCQyaJpOm-Miw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_tuf3wCt8EfCQyaJpOm-Miw - STG_DETINVOICE",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_tuf3wCt8EfCQyaJpOm-Miw - STG_INVOICE",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_a_a1sDPQEfCxHKwifZRUGw",
     "version" : "0.1",
     "type" : "joblet"
@@ -280,6 +330,33 @@
     "type" : "property"
   }, {
     "id" : "_tuf3wCt8EfCQyaJpOm-Miw - STG_OBJECT",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_kYXYoDwAEfCrua3AXN9Wog",
+    "version" : "0.1",
+    "type" : "joblet"
+  },
+  "relatedItems" : [ {
+    "id" : "_CFqJ0DsCEfCP8fVx4LvCzg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_tuf3wCt8EfCQyaJpOm-Miw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_tuf3wCt8EfCQyaJpOm-Miw - STG_CONTRACT",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_tuf3wCt8EfCQyaJpOm-Miw - STG_DETINVOICE",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_tuf3wCt8EfCQyaJpOm-Miw - STG_INVOICE",
     "version" : "Latest",
     "type" : "schema"
   } ]
