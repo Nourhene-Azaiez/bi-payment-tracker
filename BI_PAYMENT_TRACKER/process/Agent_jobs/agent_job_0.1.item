@@ -1,270 +1,102 @@
-```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" hide="false" name="Default"/>
   <parameters>
+    <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
     <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
-    <elementParameter field="TEXT" name="OOZIE_PROPERTY_SEPARATOR" value=";"/>
-    <elementParameter field="ENCRYPTABLE_PROPERTY" name="OOZIE_SUBMISSION_PASSWORD" value="enc:system.encryption.key.v1:i+99699+z3Xg04/09+99699+z3Xg04/09"/>
-    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="HDP"/>
-    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" value="2.0.0"/>
-    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="false"/>
-    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="nn/_HOST@EXAMPLE.COM"/>
-    <elementParameter field="TEXT" name="OOZIE_USERNAME" value="talend"/>
-    <elementParameter field="TEXT" name="OOZIE_GROUP" value="talend"/>
-    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" value="false"/>
-    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" value="talend/_HOST@EXAMPLE.COM"/>
-    <elementParameter field="FILE" name="OOZIE_KEYTAB" value=""/>
-    <elementParameter field="TEXT" name="OOZIE_HADOOP_USER" value="talend"/>
-    <elementParameter field="TEXT" name="OOZIE_HDFS_USER" value="talend"/>
-    <elementParameter field="DIRECTORY" name="OOZIE_HDFS_HOME" value="/user/talend/oozie/workflows"/>
-    <elementParameter field="DIRECTORY" name="OOZIE_HDFS_APP_PATH" value="/user/talend/oozie/workflows/${name}"/>
-    <elementParameter field="TEXT" name="OOZIE_CLASSPATH" value=""/>
-    <elementParameter field="TEXT" name="OOZIE_LIBRARIES" value=""/>
-    <elementParameter field="TEXT" name="OOZIE_ALLOW_USER_DEFINE_PARAMETERS" value="false"/>
-    <elementParameter field="TEXT" name="OOZIE_PARAMETER_NAMES" value=""/>
-    <elementParameter field="TEXT" name="DEPLOYMENT_SERVER" value="Default"/>
-    <elementParameter field="TEXT" name="DEPLOYMENT_SERVER_URL" value="http://localhost:8080/"/>
-    <elementParameter field="TEXT" name="DEPLOYMENT_SERVER_USER" value="admin"/>
-    <elementParameter field="ENCRYPTABLE_PROPERTY" name="DEPLOYMENT_SERVER_PASSWORD" value="enc:system.encryption.key.v1:9+99699+z3Xg04/09+99699+z3Xg04/09"/>
-    <elementParameter field="TEXT" name="DEPLOYMENT_SERVER_PROJECT" value="TalendManagementPlatform"/>
-    <elementParameter field="TEXT" name="DEPLOYMENT_SERVER_FOLDER" value="process"/>
-    <elementParameter field="TEXT" name="DEPLOYMENT_SERVER_GROUPID" value="org.talend.process"/>
-    <elementParameter field="TEXT" name="DEPLOYMENT_SERVER_ARTIFACTID" value="STG_OBJECT_to_DIM_OBJET"/>
-    <elementParameter field="TEXT" name="DEPLOYMENT_SERVER_VERSION" value="0.1"/>
-    <elementParameter field="TEXT" name="DEPLOYMENT_SERVER_USERNAME" value="admin"/>
-    <elementParameter field="ENCRYPTABLE_PROPERTY" name="DEPLOYMENT_SERVER_PASSWORD_" value="enc:system.encryption.key.v1:9+99699+z3Xg04/09+99699+z3Xg04/09"/>
-    <elementParameter field="TEXT" name="HOOK_PATH" value=""/>
-    <elementParameter field="CHECK" name="USE_HOOK" value="false"/>
-    <elementParameter field="TEXT" name="HOOKS_DIRECTORY" value=""/>
-    <elementParameter field="TEXT" name="HOOK_JARS" value=""/>
-    <elementParameter field="TEXT" name="INDEPENDENT_PROCESS" value="false"/>
-    <elementParameter field="TEXT" name="SPARK_LOCAL_MODE" value="false"/>
-    <elementParameter field="TEXT" name="SPARK_SUBMIT_CLASS" value=""/>
-    <elementParameter field="TEXT" name="SPARK_MASTER" value="yarn"/>
-    <elementParameter field="TEXT" name="SPARK_DEPLOY_MODE" value="cluster"/>
-    <elementParameter field="TEXT" name="SPARK_EXECUTOR_MEMORY" value="1G"/>
-    <elementParameter field="TEXT" name="SPARK_EXECUTOR_CORES" value="1"/>
-    <elementParameter field="TEXT" name="SPARK_YARN_QUEUE" value="default"/>
-    <elementParameter field="TEXT" name="SPARK_DYNAMIC_ALLOCATION" value="false"/>
-    <elementParameter field="TEXT" name="SPARK_DYNAMIC_MAX_EXECUTORS" value="1"/>
-    <elementParameter field="TEXT" name="SPARK_DYNAMIC_MIN_EXECUTORS" value="1"/>
-    <elementParameter field="TEXT" name="SPARK_EXECUTOR_INSTANCES" value="1"/>
-    <elementParameter field="TEXT" name="SPARK_JVM_OPTIONS" value="-Xms256m -Xmx1024m"/>
-    <elementParameter field="TEXT" name="SPARK_JAVA_VERSION" value="8"/>
-    <elementParameter field="TEXT" name="SPARK_DRIVER_MEMORY" value="1G"/>
-    <elementParameter field="TEXT" name="SPARK_DRIVER_CORES" value="1"/>
-    <elementParameter field="TEXT" name="SPARK_SUBMIT_OPTIONS" value=""/>
-    <elementParameter field="TEXT" name="SPARK_ADVANCED_PROPERTIES" value=""/>
-    <elementParameter field="CHECK" name="SPARK_PRINT_LAUNCH_COMMAND" value="false"/>
-    <elementParameter field="CHECK" name="SPARK_S3_ACL" value="false"/>
-    <elementParameter field="TEXT" name="SPARK_S3_ACL_SYNCHRONIZED" value="bucket-owner-full-control"/>
-    <elementParameter field="CHECK" name="SPARK_USE_CUSTOM_JDBC_DRIVER" value="false"/>
-    <elementParameter field="TEXT" name="SPARK_CUSTOM_JDBC_DRIVER_JAR" value=""/>
-    <elementParameter field="TEXT" name="SPARK_CLASS_PATH" value=""/>
-    <elementParameter field="TEXT" name="SPARK_EXTA_CLASSPATH" value=""/>
-    <elementParameter field="TEXT" name="SPARK_CONF" value=""/>
-    <elementParameter field="TEXT" name="SPARK_DRIVER_JVM_OPTIONS" value=""/>
-    <elementParameter field="TEXT" name="SPARK_YARN_APP_RESOURCE_LIFETIME" value="3600"/>
-    <elementParameter field="TEXT" name="SPARK_SQL_ACTIVE_SESSION_CHECK" value="true"/>
-    <elementParameter field="CHECK" name="SPARK_SQL_ALLOW_MULTIPLE_CONTEXTS" value="false"/>
-    <elementParameter field="CHECK" name="SPARK_LOCAL_FS_WARM_UP" value="false"/>
-    <elementParameter field="TEXT" name="FILES_PATH" value=""/>
-    <elementParameter field="TEXT" name="FRAME_PATH" value=""/>
-    <elementParameter field="TEXT" name="JOB_LOG_DIR" value=""/>
-    <elementParameter field="TEXT" name="JOB_LOG_MAX_FILE_NUM" value=""/>
-    <elementParameter field="TEXT" name="JOB_LOG_MAX_FILESIZE" value=""/>
-    <elementParameter field="TEXT" name="JOB_LOG_APPEND_FILE" value="true"/>
-    <elementParameter field="TEXT" name="JOB_LOG_FILE_ENCODING" value="UTF-8"/>
-    <elementParameter field="TEXT" name="JOB_LOG_COMPRESSED_FILE" value="true"/>
-    <elementParameter field="TEXT" name="JOB_LOG_MAX_DAYS" value=""/>
-    <elementParameter field="TEXT" name="JOB_LOG_FORMAT" value="text"/>
-    <elementParameter field="TEXT" name="JOB_LOG_LEVEL" value="info"/>
-    <elementParameter field="TEXT" name="JOB_LOG_STDOUT" value="true"/>
-    <elementParameter field="TEXT" name="JOB_LOG_STDERR" value="true"/>
-    <elementParameter field="TEXT" name="ENCODING_TYPE" value="UTF-8"/>
-    <elementParameter field="TECHNICAL" name="ENCODING_TYPE:ENCODING_TYPE" value="UTF-8"/>
-    <elementParameter field="CHECK" name="ON_ERROR_STOP_JOB" value="false"/>
-    <elementParameter field="TECHNICAL" name="ON_ERROR_STOP_JOB:ON_ERROR_STOP_JOB" value="false"/>
-    <elementParameter field="TEXT" name="ON_ERROR_MAX_ERRORS" value="1"/>
-    <elementParameter field="CHECK" name="ON_ERROR_SKIP_ERROR" value="false"/>
-    <elementParameter field="CHECK" name="ON_ERROR_SHUTDOWN_JOB" value="false"/>
-    <elementParameter field="CHECK" name="ON_ERROR_FAIL_PARENT_JOB" value="false"/>
-    <elementParameter field="TEXT" name="PROPERTY_TYPE" value=""/>
-    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE:PROPERTY_TYPE" value="BUILT_IN"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE:REPOSITORY_PROPERTY_TYPE" value=""/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value=""/>
-    <elementParameter field="TEXT" name="HOST" value=""/>
-    <elementParameter field="TEXT" name="PORT" value=""/>
-    <elementParameter field="TEXT" name="TYPE" value=""/>
-    <elementParameter field="TEXT" name="DBNAME" value=""/>
-    <elementParameter field="TEXT" name="USER" value=""/>
-    <elementParameter field="ENCRYPTABLE_PROPERTY" name="PASS" value="enc:system.encryption.key.v1:9+99699+z3Xg04/09+99699+z3Xg04/09"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB" value=""/>
-    <elementParameter field="TEXT" name="JDBC_URL" value=""/>
-    <elementParameter field="TEXT" name="JDBC_DRIVER" value=""/>
-    <elementParameter field="CHECK" name="USE_SSL" value="false"/>
-    <elementParameter field="FILE" name="SSL_TRUSTSERVER_CERTIFICATE" value=""/>
-    <elementParameter field="TEXT" name="PROPERTIES" value=""/>
-    <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" value=""/>
-    <elementParameter field="CHECK" name="AUTO_COMMIT" value="false"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <elementParameter field="MEMO" name="SQL_QUERY" value=""/>
-    <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
-    <elementParameter field="TEXT" name="CURSOR_SIZE" value="1000"/>
-    <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" value="{&quot;JOB_RUN_VM_ARGUMENTS&quot;:[{&quot;PARAMETER&quot;:&quot;--add-modules java.se.ee&quot;}]}"/>
-    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="true"/>
-    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="true"/>
-    <elementParameter field="CHECK" name="STREAMING_SPARK_USE_PROJECT_SETTINGS" value="true"/>
-    <elementParameter field="CHECK" name="USE_CUSTOM_JVM_SETTING" value="false"/>
-    <elementParameter field="TEXT" name="JVM_CUSTOM_OPTIONS" value=""/>
-    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
-    <elementParameter field="TEXT" name="CONTEXT_FILE" value=""/>
-    <elementParameter field="TEXT" name="JAVA_HOME" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;C:/Program Files (x86)/Talend-Studio/studio/workspace/in.csv&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" value="false" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" value="ISO-8859-15" show="false"/>
+    <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value="ORACLE_18" show="false"/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:2niULg7th0FEqQaEPiyGTI1/Y14WQ4Cl0qcMfLyb" show="false"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning" show="false"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" value="true" show="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false" show="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;C:/Program Files (x86)/Talend-Studio/studio/workspace/.metadata&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="false" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" value="JDBCOutput" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_18" show="false"/>
+    <elementParameter field="TEXT" name="URL" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:mTdsbtlMTSdK6TrqE8vlxf0QcsDC9FHERNMZOX1h" show="false"/>
+    <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
   </parameters>
-  <node componentName="tDBInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="192">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_1" show="false"/>
-    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
-    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="Snowflake_DWH"/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="Cloud"/>
-    <elementParameter field="TEXT" name="JDBC_URL" value="&quot;jdbc:snowflake://EAMKPTL-JGC28746.snowflakecomputing.com/?user=NOURHENEAZAIEZ&amp;warehouse=COMPUTE_WH&amp;db=FINANCE_PFE&amp;schema=DATA_WAREHOUSE&quot;"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;FINANCE_PFE&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;FINANCE_PFE&quot;"/>
-    <elementParameter field="TEXT" name="TYPE" value="SNOWFLAKE" show="false"/>
-    <elementParameter field="TEXT" name="USER" value="&quot;NOURHENEAZAIEZ&quot;"/>
-    <elementParameter field="ENCRYPTABLE_PROPERTY" name="PASS" value="enc:system.encryption.key.v1:AQiF9+99699+z3Xg04/09+99699+z3Xg04/09"/>
-    <elementParameter field="TEXT" name="SCHEMA" value="&quot;STAGING&quot;"/>
-    <elementParameter field="DBTABLE" name="TABLE" value="&quot;STG_OBJECT&quot;"/>
-    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="SELECT * FROM &quot;STAGING&quot;.&quot;STG_OBJECT&quot;"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
-    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Cloud environment." show="false"/>
-    <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" value="" show="false"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="STG_OBJECT">
-      <column comment="" key="false" length="-1" name="EXTRACTIONDATE" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="-1" sourceType="DATE" type="id_Date" usefulColumn="true"/>
-      <column comment="" key="true" length="10" name="OBJECTID" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="4" name="BRANDCODE" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="4" name="RANGECODE" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="30" name="NOMENCLATURE" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="4" name="GROUPCODE" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="4" name="ENERGYCOD" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="4" name="TYPECODE" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="30" name="LABELCODE" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="ACTDELIVERYDAT" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="-1" sourceType="DATE" type="id_Date" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="DELIVERYDAT" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="-1" sourceType="DATE" type="id_Date" usefulColumn="true"/>
-      <column comment="" key="false" length="15" name="REGISTNR" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="30" name="CHASSISNR" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="2" name="FISCALPW" nullable="true" pattern="" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="4" name="DINPW" nullable="true" pattern="" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="5" name="CUBICCAP" nullable="true" pattern="" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="REGISTDAT" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="-1" sourceType="DATE" type="id_Date" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="ROADDAT" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="-1" sourceType="DATE" type="id_Date" usefulColumn="true"/>
-      <column comment="" key="false" length="4" name="YEARPROD" nullable="true" pattern="" precision="-1" sourceType="NUMBER" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="8" name="MILEAGE" nullable="true" pattern="" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="RESTMILEAGE" nullable="true" pattern="" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="4" name="PURPSUSE" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-    </metadata>
-  </node>
-  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="384" posY="192">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_1" show="false"/>
-    <elementParameter field="EXTERNAL" name="MAP" value=""/>
-    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
-    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
-    <elementParameter field="IMAGE" name="PREVIEW" value="_k9yH0K6lEe68R76Eo4eH0w-tMap_1-PREVIEW.bmp"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
-    <metadata connector="FLOW" name="DIM_OBJET">
-      <column comment="" key="false" length="-1" name="EXTRACTION_DATE" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="-1" sourceType="DATE" type="id_Date" usefulColumn="true"/>
-      <column comment="" key="true" length="10" name="OBJECT_ID" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="4" name="BRAND_CODE" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="4" name="RANGE_CODE" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="30" name="NOMENCLATURE" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="4" name="GROUP" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="4" name="ENERGY_CODE" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="4" name="TYPE_CODE" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="30" name="LABEL" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="ACTUAL_DELIVERY_DATE" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="-1" sourceType="DATE" type="id_Date" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="DELIVERY_DATE" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="-1" sourceType="DATE" type="id_Date" usefulColumn="true"/>
-      <column comment="" key="false" length="15" name="REGISTRATION_NUMBER" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="30" name="CHASSIS_NUMBER" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="FISCAL_POWER" nullable="true" pattern="" precision="-1" sourceType="DOUBLE" type="id_Double" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="DIN_POWER" nullable="true" pattern="" precision="-1" sourceType="DOUBLE" type="id_Double" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="CUBIC_CAPACITY" nullable="true" pattern="" precision="-1" sourceType="DOUBLE" type="id_Double" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="REGISTRATION_DATE" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="-1" sourceType="DATE" type="id_Date" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="ROADING_DATE" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="-1" sourceType="DATE" type="id_Date" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="YEAR_OF_PRODUCTION" nullable="true" pattern="" precision="-1" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="MILEAGE" nullable="true" pattern="" precision="-1" sourceType="DOUBLE" type="id_Double" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="RESTITUTION_MILEAGE" nullable="true" pattern="" precision="-1" sourceType="DOUBLE" type="id_Double" usefulColumn="true"/>
-      <column comment="" key="false" length="4" name="PURPOSE_OF_USE" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-    </metadata>
-    <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
-      <varTables minimized="true" name="Var" sizeState="CLOSED"/>
-      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="STG_OBJECT" sizeState="MINIMIZED">
-        <mapperTableEntries expression="STG_OBJECT.EXTRACTIONDATE" name="EXTRACTIONDATE" nullable="true" type="id_Date"/>
-        <mapperTableEntries expression="STG_OBJECT.OBJECTID" name="OBJECTID" nullable="false" type="id_String"/>
-        <mapperTableEntries expression="STG_OBJECT.BRANDCODE" name="BRANDCODE" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="STG_OBJECT.RANGECODE" name="RANGECODE" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="STG_OBJECT.NOMENCLATURE" name="NOMENCLATURE" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="STG_OBJECT.GROUPCODE" name="GROUPCODE" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="STG_OBJECT.ENERGYCOD" name="ENERGYCOD" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="STG_OBJECT.TYPECODE" name="TYPECODE" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="STG_OBJECT.LABELCODE" name="LABELCODE" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="STG_OBJECT.ACTDELIVERYDAT" name="ACTDELIVERYDAT" nullable="true" type="id_Date"/>
-        <mapperTableEntries expression="STG_OBJECT.DELIVERYDAT" name="DELIVERYDAT" nullable="true" type="id_Date"/>
-        <mapperTableEntries expression="STG_OBJECT.REGISTNR" name="REGISTNR" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="STG_OBJECT.CHASSISNR" name="CHASSISNR" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="STG_OBJECT.FISCALPW" name="FISCALPW" nullable="true" type="id_BigDecimal"/>
-        <mapperTableEntries expression="STG_OBJECT.DINPW" name="DINPW" nullable="true" type="id_BigDecimal"/>
-        <mapperTableEntries expression="STG_OBJECT.CUBICCAP" name="CUBICCAP" nullable="true" type="id_BigDecimal"/>
-        <mapperTableEntries expression="STG_OBJECT.REGISTDAT" name="REGISTDAT" nullable="true" type="id_Date"/>
-        <mapperTableEntries expression="STG_OBJECT.ROADDAT" name="ROADDAT" nullable="true" type="id_Date"/>
-        <mapperTableEntries expression="STG_OBJECT.YEARPROD" name="YEARPROD" nullable="true" type="id_Integer"/>
-        <mapperTableEntries expression="STG_OBJECT.MILEAGE" name="MILEAGE" nullable="true" type="id_BigDecimal"/>
-        <mapperTableEntries expression="STG_OBJECT.RESTMILEAGE" name="RESTMILEAGE" nullable="true" type="id_BigDecimal"/>
-        <mapperTableEntries expression="STG_OBJECT.PURPSUSE" name="PURPSUSE" nullable="true" type="id_String"/>
-      </inputTables>
-      <outputTables activateCondensedTool="true" expressionFilter="null" name="DIM_OBJET" rejectInnerJoin="false" sizeState="MINIMIZED">
-        <mapperTableEntries expression="STG_OBJECT.EXTRACTIONDATE" name="EXTRACTION_DATE" nullable="true" type="id_Date"/>
-        <mapperTableEntries expression="STG_OBJECT.OBJECTID" name="OBJECT_ID" nullable="false" type="id_String"/>
-        <mapperTableEntries expression="STG_OBJECT.BRANDCODE" name="BRAND_CODE" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="STG_OBJECT.RANGECODE" name="RANGE_CODE" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="STG_OBJECT.NOMENCLATURE" name="NOMENCLATURE" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="STG_OBJECT.GROUPCODE" name="GROUP" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="STG_OBJECT.ENERGYCOD" name="ENERGY_CODE" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="STG_OBJECT.TYPECODE" name="TYPE_CODE" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="STG_OBJECT.LABELCODE" name="LABEL" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="STG_OBJECT.ACTDELIVERYDAT" name="ACTUAL_DELIVERY_DATE" nullable="true" type="id_Date"/>
-        <mapperTableEntries expression="STG_OBJECT.DELIVERYDAT" name="DELIVERY_DATE" nullable="true" type="id_Date"/>
-        <mapperTableEntries expression="STG_OBJECT.REGISTNR" name="REGISTRATION_NUMBER" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="STG_OBJECT.CHASSISNR" name="CHASSIS_NUMBER" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="STG_OBJECT.FISCALPW == null ? 0.0 : STG_OBJECT.FISCALPW.doubleValue()" name="FISCAL_POWER" nullable="true" type="id_Double"/>
-        <mapperTableEntries expression="STG_OBJECT.DINPW == null ? 0.0 : STG_OBJECT.DINPW.doubleValue()" name="DIN_POWER" nullable="true" type="id_Double"/>
-        <mapperTableEntries expression="STG_OBJECT.CUBICCAP == null ? 0.0 : STG_OBJECT.CUBICCAP.doubleValue()" name="CUBIC_CAPACITY" nullable="true" type="id_Double"/>
-        <mapperTableEntries expression="STG_OBJECT.REGISTDAT" name="REGISTRATION_DATE" nullable="true" type="id_Date"/>
-        <mapperTableEntries expression="STG_OBJECT.ROADDAT" name="ROADING_DATE" nullable="true" type="id_Date"/>
-        <mapperTableEntries expression="STG_OBJECT.YEARPROD" name="YEAR_OF_PRODUCTION" nullable="true" type="id_Integer"/>
-        <mapperTableEntries expression="STG_OBJECT.MILEAGE == null ? 0.0 : STG_OBJECT.MILEAGE.doubleValue()" name="MILEAGE" nullable="true" type="id_Double"/>
-        <mapperTableEntries expression="STG_OBJECT.RESTMILEAGE == null ? 0.0 : STG_OBJECT.RESTMILEAGE.doubleValue()" name="RESTITUTION_MILEAGE" nullable="true" type="id_Double"/>
-        <mapperTableEntries expression="STG_OBJECT.PURPSUSE" name="PURPOSE_OF_USE" nullable="true" type="id_String"/>
-      </outputTables>
-    </nodeData>
-  </node>
-  <node componentName="tDBOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="640" posY="192">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBOutput_1" show="false"/>
-    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
-    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="Snowflake_DWH"/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="Cloud"/>
-    <elementParameter field="TEXT" name="JDBC_URL" value="&quot;jdbc:snowflake://EAMKPTL-JGC28746.snowflakecomputing.com/?user=NOURHENEAZAIEZ&amp;warehouse=COMPUTE_WH&amp;db=FINANCE_PFE&amp;schema=DATA_WAREHOUSE&quot;"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;FINANCE_PFE&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;FINANCE_PFE&quot;"/>
-    <elementParameter field="TEXT" name="TYPE" value="SNOWFLAKE" show="false"/>
-    <elementParameter field="TEXT" name="USER" value="&quot;NOURHENEAZAIEZ&quot;"/>
-    <elementParameter field="ENCRYPTABLE_PROPERTY" name="PASS" value="enc:system.encryption.key.v1:AQi
+</talendfile:ProcessType>
