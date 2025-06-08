@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
-  <TalendMetadata:TacokitDatabaseConnection xmi:id="_tuge0Ct8EfCQyaJpOm-Miw" name="Snowflake_STAGING" properties="configuration.parameters&#xA;&#xA;[]&#xA;&#xA;configuration.port&#xA;&#xA;80&#xA;&#xA;configuration.dbMapping&#xA;&#xA;snowflake_id&#xA;&#xA;configuration.password&#xA;&#xA;enc:system.encryption.key.v1:G1eYj2esGR85LCUN2ySfO/VfHH+CCZh7KwUZMxzDUzoDZ3JTZ2xyV/iE&#xA;&#xA;configuration.useDataSource&#xA;&#xA;false&#xA;&#xA;__TACOKIT_CONFIG_ID&#xA;&#xA;bmV3amRiYyNKREJDI2RhdGFzdG9yZSNKREJDRGF0YVN0b3Jl&#xA;&#xA;configuration.jdbcClass&#xA;&#xA;net.snowflake.client.jdbc.SnowflakeDriver&#xA;&#xA;configuration.useSharedDBConnection&#xA;&#xA;false&#xA;&#xA;configuration.grantType&#xA;&#xA;CLIENT_CREDENTIALS&#xA;&#xA;configuration.enableDBType&#xA;&#xA;false&#xA;&#xA;configuration.jdbcDriver&#xA;&#xA;[{configuration.jdbcDriver[].path=mvn:org.talend.libraries/snowflake-jdbc-3.24.0/6.0.0-SNAPSHOT/jar}]&#xA;&#xA;configuration.authenticationType&#xA;&#xA;BASIC&#xA;&#xA;configuration.__version&#xA;&#xA;-1&#xA;&#xA;configuration.userId&#xA;&#xA;NOURHENEAZAIEZ&#xA;&#xA;configuration.host&#xA;&#xA;&#xA;&#xA;configuration.jdbcUrl&#xA;&#xA;jdbc:snowflake://EAMKPTL-JGC28746.snowflakecomputing.com/?user=NOURHENEAZAIEZ&amp;warehouse=COMPUTE_WH&amp;db=FINANCE_PFE&amp;schema=STAGING&#xA;&#xA;configuration.setRawUrl&#xA;&#xA;true&#xA;&#xA;__TACOKIT_CONFIG_PARENT_ID&#xA;&#xA;bmV3amRiYyNKREJD&#xA;&#xA;" dataPackage="_0wsvMCt8EfCQyaJpOm-Miw _0wsvNSt8EfCQyaJpOm-Miw _0wsvTCt8EfCQyaJpOm-Miw _0wsvTyt8EfCQyaJpOm-Miw" DatabaseType="JDBC" SID="" ProductId="JDBC" UiSchema="" supportNLS="false">
+  <TalendMetadata:TacokitDatabaseConnection xmi:id="_tuge0Ct8EfCQyaJpOm-Miw" name="Snowflake_STAGING" properties="configuration.parameters&#xA;&#xA;[]&#xA;&#xA;configuration.port&#xA;&#xA;80&#xA;&#xA;configuration.dbMapping&#xA;&#xA;mysql_id&#xA;&#xA;configuration.password&#xA;&#xA;enc:system.encryption.key.v1:G1eYj2esGR85LCUN2ySfO/VfHH+CCZh7KwUZMxzDUzoDZ3JTZ2xyV/iE&#xA;&#xA;configuration.useDataSource&#xA;&#xA;false&#xA;&#xA;__TACOKIT_CONFIG_ID&#xA;&#xA;bmV3amRiYyNKREJDI2RhdGFzdG9yZSNKREJDRGF0YVN0b3Jl&#xA;&#xA;configuration.jdbcClass&#xA;&#xA;net.snowflake.client.jdbc.SnowflakeDriver&#xA;&#xA;configuration.useSharedDBConnection&#xA;&#xA;false&#xA;&#xA;configuration.grantType&#xA;&#xA;CLIENT_CREDENTIALS&#xA;&#xA;configuration.enableDBType&#xA;&#xA;false&#xA;&#xA;configuration.jdbcDriver&#xA;&#xA;[{configuration.jdbcDriver[].path=mvn:org.talend.libraries/snowflake-jdbc-3.24.0/6.0.0-SNAPSHOT/jar}]&#xA;&#xA;configuration.authenticationType&#xA;&#xA;BASIC&#xA;&#xA;configuration.__version&#xA;&#xA;-1&#xA;&#xA;configuration.userId&#xA;&#xA;NOURHENEAZAIEZ&#xA;&#xA;configuration.host&#xA;&#xA;&#xA;&#xA;configuration.jdbcUrl&#xA;&#xA;&quot;jdbc:snowflake://RXIMZHQ-SHC88015.snowflakecomputing.com/?user=NOURHENEAZAIEZ&amp;warehouse=COMPUTE_WH&amp;db=FINANCE_PFE&amp;schema=STAGING&quot;&#xA;&#xA;configuration.setRawUrl&#xA;&#xA;true&#xA;&#xA;__TACOKIT_CONFIG_PARENT_ID&#xA;&#xA;bmV3amRiYyNKREJD&#xA;&#xA;" id="_tuf3wCt8EfCQyaJpOm-Miw" dataPackage="_0wsvMCt8EfCQyaJpOm-Miw _0wsvNSt8EfCQyaJpOm-Miw _0wsvTCt8EfCQyaJpOm-Miw _0wsvTyt8EfCQyaJpOm-Miw" DatabaseType="JDBC" SID="" ProductId="JDBC" UiSchema="" supportNLS="false">
     <taggedValue xmi:id="_0QwD0Ct8EfCQyaJpOm-Miw" tag="Status" value=""/>
     <taggedValue xmi:id="_0QwD0St8EfCQyaJpOm-Miw" tag="Version" value="0.1"/>
     <taggedValue xmi:id="_0QwD0it8EfCQyaJpOm-Miw" tag="Purpose" value=""/>
@@ -726,16 +726,6 @@
           <initialValue xsi:type="relational:TdExpression" xmi:id="_0ydDJyt8EfCQyaJpOm-Miw" language="COLUMN_DEF"/>
           <sqlDataType xmi:id="_0ydDKCt8EfCQyaJpOm-Miw" name="NUMBER" numericPrecision="3" javaDataType="3" nullable="columnNullable"/>
         </feature>
-        <feature xsi:type="relational:TdColumn" xmi:id="_wbq7GDvNEfCqi-ac2S8yKg" name="VERSION_NUMBER" label="VERSION_NUMBER" length="38" sourceType="NUMBER" talendType="id_BigDecimal">
-          <taggedValue xmi:id="_wbq7GTvNEfCqi-ac2S8yKg" tag="Comment" value=""/>
-          <initialValue xsi:type="relational:TdExpression" xmi:id="_wbq7GjvNEfCqi-ac2S8yKg" language="COLUMN_DEF"/>
-          <sqlDataType xmi:id="_wbq7GzvNEfCqi-ac2S8yKg" name="NUMBER" javaDataType="-5" nullable="columnNullable"/>
-        </feature>
-        <feature xsi:type="relational:TdColumn" xmi:id="_wbq7HDvNEfCqi-ac2S8yKg" name="IS_LAST_VERSION" label="IS_LAST_VERSION" sourceType="BOOLEAN" talendType="id_Boolean">
-          <taggedValue xmi:id="_wbq7HTvNEfCqi-ac2S8yKg" tag="Comment" value=""/>
-          <initialValue xsi:type="relational:TdExpression" xmi:id="_wbq7HjvNEfCqi-ac2S8yKg" language="COLUMN_DEF"/>
-          <sqlDataType xmi:id="_wbq7HzvNEfCqi-ac2S8yKg" name="BOOLEAN" javaDataType="16" nullable="columnNullable"/>
-        </feature>
       </ownedElement>
       <ownedElement xsi:type="relational:TdTable" xmi:id="_06xRMSt8EfCQyaJpOm-Miw" name="STG_DETINVOICE" id="_06xRMCt8EfCQyaJpOm-Miw" label="STG_DETINVOICE" tableType="TABLE">
         <feature xsi:type="relational:TdColumn" xmi:id="_06xRMit8EfCQyaJpOm-Miw" name="EXTRACTIONDATE" label="EXTRACTIONDATE" sourceType="DATE" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
@@ -1072,6 +1062,7 @@
           <initialValue xsi:type="relational:TdExpression" xmi:id="_1OvWJCt8EfCQyaJpOm-Miw" language="COLUMN_DEF"/>
           <sqlDataType xmi:id="_1OvWJSt8EfCQyaJpOm-Miw" name="DATE" javaDataType="91" nullable="columnNullable"/>
         </feature>
+        <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HaS4kESMEfCVDPD11Mw7DA" name="DESCRIPTION" label="DESCRIPTION" length="80" sourceType="VARCHAR" talendType="id_String"/>
       </ownedElement>
       <ownedElement xsi:type="relational:TdTable" xmi:id="_1Val0Ct8EfCQyaJpOm-Miw" name="STG_PAYMENT" id="_1VVtUCt8EfCQyaJpOm-Miw" label="STG_PAYMENT" tableType="TABLE">
         <feature xsi:type="relational:TdColumn" xmi:id="_1Val0St8EfCQyaJpOm-Miw" name="VALIDFR" label="VALIDFR" sourceType="DATE" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">

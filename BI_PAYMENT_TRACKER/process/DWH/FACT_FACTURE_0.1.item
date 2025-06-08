@@ -114,7 +114,7 @@
     <elementParameter field="CHECK" name="configuration.dataSet.dataStore.enableDBType" value="false" show="false"/>
     <elementParameter field="CLOSED_LIST" name="configuration.dataSet.dataStore.dbType" value="JDBC" show="false"/>
     <elementParameter field="CHECK" name="configuration.dataSet.dataStore.setRawUrl" value="true" show="false"/>
-    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.jdbcUrl" value="&quot;jdbc:snowflake://EAMKPTL-JGC28746.snowflakecomputing.com/?user=NOURHENEAZAIEZ&amp;warehouse=COMPUTE_WH&amp;db=FINANCE_PFE&amp;schema=STAGING&quot;"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.jdbcUrl" value="&quot;jdbc:snowflake://RXIMZHQ-SHC88015.snowflakecomputing.com/?user=NOURHENEAZAIEZ&amp;warehouse=COMPUTE_WH&amp;db=FINANCE_PFE&amp;schema=STAGING&quot;"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.host" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.port" value="&quot;80&quot;" show="false"/>
     <elementParameter field="TABLE" name="configuration.dataSet.dataStore.parameters" show="false"/>
@@ -200,10 +200,6 @@
       <elementValue elementRef="configuration.config.columnTrims[].trim" value="false" id="57"/>
       <elementValue elementRef="configuration.config.columnTrims[].column" value="NOMBALANCEWTAX" id="58"/>
       <elementValue elementRef="configuration.config.columnTrims[].trim" value="false" id="59"/>
-      <elementValue elementRef="configuration.config.columnTrims[].column" value="VERSION_NUMBER" id="60"/>
-      <elementValue elementRef="configuration.config.columnTrims[].trim" value="false" id="61"/>
-      <elementValue elementRef="configuration.config.columnTrims[].column" value="IS_LAST_VERSION" id="62"/>
-      <elementValue elementRef="configuration.config.columnTrims[].trim" value="false" id="63"/>
     </elementParameter>
     <elementParameter field="CHECK" name="configuration.config.enableMapping" value="false"/>
     <elementParameter field="CLOSED_LIST" name="configuration.config.mapping" value="MYSQL" show="false"/>
@@ -306,12 +302,6 @@
       <column comment="" key="false" length="10" name="NOMBALANCEWTAX" nullable="true" pattern="" precision="3" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="38" name="VERSION_NUMBER" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="0" name="IS_LAST_VERSION" nullable="true" pattern="" precision="0" sourceType="BOOLEAN" type="id_Boolean" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
     </metadata>
     <metadata connector="LOOKUP" name="LOOKUP"/>
     <metadata connector="MERGE" name="MERGE"/>
@@ -335,7 +325,7 @@
     <elementParameter field="CHECK" name="configuration.dataSet.dataStore.enableDBType" value="false" show="false"/>
     <elementParameter field="CLOSED_LIST" name="configuration.dataSet.dataStore.dbType" value="JDBC" show="false"/>
     <elementParameter field="CHECK" name="configuration.dataSet.dataStore.setRawUrl" value="true" show="false"/>
-    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.jdbcUrl" value="&quot;jdbc:snowflake://EAMKPTL-JGC28746.snowflakecomputing.com/?user=NOURHENEAZAIEZ&amp;warehouse=COMPUTE_WH&amp;db=FINANCE_PFE&amp;schema=STAGING&quot;"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.jdbcUrl" value="&quot;jdbc:snowflake://RXIMZHQ-SHC88015.snowflakecomputing.com/?user=NOURHENEAZAIEZ&amp;warehouse=COMPUTE_WH&amp;db=FINANCE_PFE&amp;schema=STAGING&quot;"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.host" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.port" value="&quot;80&quot;" show="false"/>
     <elementParameter field="TABLE" name="configuration.dataSet.dataStore.parameters" show="false"/>
@@ -542,12 +532,6 @@
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="10" name="NOMBALANCEWTAX" nullable="true" pattern="" precision="3" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="38" name="VERSION_NUMBER" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="0" name="IS_LAST_VERSION" nullable="true" pattern="" precision="0" sourceType="BOOLEAN" type="id_Boolean" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
     </metadata>
@@ -1551,7 +1535,7 @@
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
     <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
-    <elementParameter field="IMAGE" name="PREVIEW" value="_2A6t4Du3EfCqi-ac2S8yKg-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_FSuLQD09EfCfzsjOR9aS8A-tMap_1-PREVIEW.bmp"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
     <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
     <elementParameter field="TEXT" name="LEVENSHTEIN" value="0" show="false"/>
@@ -1747,7 +1731,7 @@
     <elementParameter field="CHECK" name="configuration.dataSet.dataStore.enableDBType" value="false" show="false"/>
     <elementParameter field="CLOSED_LIST" name="configuration.dataSet.dataStore.dbType" value="JDBC" show="false"/>
     <elementParameter field="CHECK" name="configuration.dataSet.dataStore.setRawUrl" value="true" show="false"/>
-    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.jdbcUrl" value="&quot;jdbc:snowflake://EAMKPTL-JGC28746.snowflakecomputing.com/?user=NOURHENEAZAIEZ&amp;warehouse=COMPUTE_WH&amp;db=FINANCE_PFE&amp;schema=STAGING&quot;"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.jdbcUrl" value="&quot;jdbc:snowflake://RXIMZHQ-SHC88015.snowflakecomputing.com/?user=NOURHENEAZAIEZ&amp;warehouse=COMPUTE_WH&amp;db=FINANCE_PFE&amp;schema=STAGING&quot;"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.host" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.port" value="&quot;80&quot;" show="false"/>
     <elementParameter field="TABLE" name="configuration.dataSet.dataStore.parameters" show="false"/>
@@ -2250,7 +2234,7 @@
     <elementParameter field="CHECK" name="configuration.dataSet.dataStore.enableDBType" value="false" show="false"/>
     <elementParameter field="CLOSED_LIST" name="configuration.dataSet.dataStore.dbType" value="JDBC" show="false"/>
     <elementParameter field="CHECK" name="configuration.dataSet.dataStore.setRawUrl" value="true" show="false"/>
-    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.jdbcUrl" value="&quot;jdbc:snowflake://EAMKPTL-JGC28746.snowflakecomputing.com/?user=NOURHENEAZAIEZ&amp;warehouse=COMPUTE_WH&amp;db=FINANCE_PFE&amp;schema=DATA_WAREHOUSE&quot;"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.jdbcUrl" value="&quot;jdbc:snowflake://RXIMZHQ-SHC88015.snowflakecomputing.com/?user=NOURHENEAZAIEZ&amp;warehouse=COMPUTE_WH&amp;db=FINANCE_PFE&amp;schema=DATA_WAREHOUSE&quot;"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.host" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.port" value="&quot;80&quot;" show="false"/>
     <elementParameter field="TABLE" name="configuration.dataSet.dataStore.parameters" show="false"/>
