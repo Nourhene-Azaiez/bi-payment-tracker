@@ -27,6 +27,29 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_1cp2YETPEfCKWPZkWG9fow",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_CFqJ0DsCEfCP8fVx4LvCzg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_tuf3wCt8EfCQyaJpOm-Miw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_tuf3wCt8EfCQyaJpOm-Miw - STG_CONTRACT",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_tuf3wCt8EfCQyaJpOm-Miw - STG_PAYMENT",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_9BkvkD5cEfCVHJ7Ek4Dx0g",
     "version" : "0.1",
     "type" : "job"
@@ -130,6 +153,33 @@
     "id" : "_tuf3wCt8EfCQyaJpOm-Miw",
     "version" : "Latest",
     "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_Hj1RcETAEfCVDPD11Mw7DA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_CFqJ0DsCEfCP8fVx4LvCzg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_tuf3wCt8EfCQyaJpOm-Miw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_tuf3wCt8EfCQyaJpOm-Miw - STG_CONTRACT",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_tuf3wCt8EfCQyaJpOm-Miw - STG_DETINVOICE",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_tuf3wCt8EfCQyaJpOm-Miw - STG_INVOICE",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
@@ -321,6 +371,25 @@
     "type" : "job"
   },
   "relatedItems" : [ ]
+}, {
+  "baseItem" : {
+    "id" : "_u2S4UETNEfCKWPZkWG9fow",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_CFqJ0DsCEfCP8fVx4LvCzg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_tuf3wCt8EfCQyaJpOm-Miw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_tuf3wCt8EfCQyaJpOm-Miw - STG_PAYMENT",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
 }, {
   "baseItem" : {
     "id" : "_w4rLoDJJEfC2P62ypeMP7g",

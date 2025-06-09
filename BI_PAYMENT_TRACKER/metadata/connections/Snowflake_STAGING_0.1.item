@@ -102,7 +102,7 @@
           <initialValue xsi:type="relational:TdExpression" xmi:id="_1IbS8yt8EfCQyaJpOm-Miw" language="COLUMN_DEF"/>
           <sqlDataType xmi:id="_1IbS9Ct8EfCQyaJpOm-Miw" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
         </feature>
-        <feature xsi:type="relational:TdColumn" xmi:id="_1IbS9St8EfCQyaJpOm-Miw" name="CUSTOMERID" label="CUSTOMERID" length="10" sourceType="VARCHAR" talendType="id_String">
+        <feature xsi:type="relational:TdColumn" xmi:id="_1IbS9St8EfCQyaJpOm-Miw" name="CUSTOMERID" label="CUSTOMERID" length="10" sourceType="VARCHAR" talendType="id_String" nullable="false">
           <taggedValue xmi:id="_1IbS9it8EfCQyaJpOm-Miw" tag="Comment" value=""/>
           <initialValue xsi:type="relational:TdExpression" xmi:id="_1IbS9yt8EfCQyaJpOm-Miw" language="COLUMN_DEF"/>
           <sqlDataType xmi:id="_1IbS-Ct8EfCQyaJpOm-Miw" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
@@ -202,7 +202,7 @@
           <initialValue xsi:type="relational:TdExpression" xmi:id="_1IbTQyt8EfCQyaJpOm-Miw" language="COLUMN_DEF"/>
           <sqlDataType xmi:id="_1IbTRCt8EfCQyaJpOm-Miw" name="NUMBER" numericPrecision="3" javaDataType="3" nullable="columnNullable"/>
         </feature>
-        <feature xsi:type="relational:TdColumn" xmi:id="_1IbTRSt8EfCQyaJpOm-Miw" name="OBJECTID" label="OBJECTID" length="30" sourceType="VARCHAR" talendType="id_String">
+        <feature xsi:type="relational:TdColumn" xmi:id="_1IbTRSt8EfCQyaJpOm-Miw" name="OBJECTID" label="OBJECTID" length="30" sourceType="VARCHAR" talendType="id_String" nullable="false">
           <taggedValue xmi:id="_1IbTRit8EfCQyaJpOm-Miw" tag="Comment" value=""/>
           <initialValue xsi:type="relational:TdExpression" xmi:id="_1IbTRyt8EfCQyaJpOm-Miw" language="COLUMN_DEF"/>
           <sqlDataType xmi:id="_1IbTSCt8EfCQyaJpOm-Miw" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
@@ -586,7 +586,7 @@
           <initialValue xsi:type="relational:TdExpression" xmi:id="_0ydCtyt8EfCQyaJpOm-Miw" language="COLUMN_DEF"/>
           <sqlDataType xmi:id="_0ydCuCt8EfCQyaJpOm-Miw" name="DATE" javaDataType="91" nullable="columnNullable"/>
         </feature>
-        <feature xsi:type="relational:TdColumn" xmi:id="_0ydCuSt8EfCQyaJpOm-Miw" name="CONTRACTID" label="CONTRACTID" length="12" sourceType="VARCHAR" talendType="id_String">
+        <feature xsi:type="relational:TdColumn" xmi:id="_0ydCuSt8EfCQyaJpOm-Miw" name="CONTRACTID" label="CONTRACTID" length="12" sourceType="VARCHAR" talendType="id_String" nullable="false">
           <taggedValue xmi:id="_0ydCuit8EfCQyaJpOm-Miw" tag="Comment" value=""/>
           <initialValue xsi:type="relational:TdExpression" xmi:id="_0ydCuyt8EfCQyaJpOm-Miw" language="COLUMN_DEF"/>
           <sqlDataType xmi:id="_0ydCvCt8EfCQyaJpOm-Miw" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
