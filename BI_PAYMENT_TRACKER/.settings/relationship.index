@@ -13,10 +13,6 @@
     "version" : "Latest",
     "type" : "property"
   }, {
-    "id" : "_CFqJ0DsCEfCP8fVx4LvCzg - DIM_CONTRAT",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
     "id" : "_tuf3wCt8EfCQyaJpOm-Miw - STG_CONTRACT",
     "version" : "Latest",
     "type" : "schema"
@@ -370,7 +366,19 @@
     "version" : "0.1",
     "type" : "job"
   },
-  "relatedItems" : [ ]
+  "relatedItems" : [ {
+    "id" : "_CFqJ0DsCEfCP8fVx4LvCzg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_tuf3wCt8EfCQyaJpOm-Miw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_tuf3wCt8EfCQyaJpOm-Miw - STG_OBJECT",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
 }, {
   "baseItem" : {
     "id" : "_u2S4UETNEfCKWPZkWG9fow",

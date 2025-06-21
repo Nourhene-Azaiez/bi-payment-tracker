@@ -623,7 +623,7 @@
       </column>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="invhd">
         <mapperTableEntries name="VALIDFR" expression="row2.DTVALIDFR " type="id_Date" nullable="true"/>
@@ -638,7 +638,7 @@
         <mapperTableEntries name="TAXAM" expression="row2.AFRAHTAX " type="id_BigDecimal" nullable="true"/>
         <mapperTableEntries name="WTAXAMOUNT" expression="row2.AFRYHTAX " type="id_BigDecimal" nullable="true"/>
         <mapperTableEntries name="BALANCEWTAX" expression="row2.AFRBHTAX " type="id_BigDecimal" nullable="true"/>
-        <mapperTableEntries name="FLAGINC" expression="&quot;Y&quot;.equals(row2.FFRINCID) " type="id_Boolean" nullable="true"/>
+        <mapperTableEntries name="FLAGINC" expression="row2.FFRINCID=='O' " type="id_Boolean" nullable="true"/>
         <mapperTableEntries name="ACCDATE" expression="row2.DTFRACCA " type="id_Date" nullable="true"/>
         <mapperTableEntries name="CURRENCYCOD" expression="row2.KFRCURRE " type="id_String" nullable="true"/>
         <mapperTableEntries name="INSTALLDATE" expression="row2.DTFRINST " type="id_Date" nullable="true"/>
@@ -648,7 +648,7 @@
         <mapperTableEntries name="MVSTATUSCOD" expression="row2.KFRMVCOD " type="id_String" nullable="true"/>
         <mapperTableEntries name="BENEFICIARY" expression="row2.DSFRBENE " type="id_String" nullable="true"/>
         <mapperTableEntries name="DUEDATE" expression="row2.DTFRDUED " type="id_Date" nullable="true"/>
-        <mapperTableEntries name="UNPAYFLAG" expression="&quot;Y&quot;.equals(row2.FFRUPAID) " type="id_Boolean" nullable="true"/>
+        <mapperTableEntries name="UNPAYFLAG" expression="row2.FFRUPAID=='O' " type="id_Boolean" nullable="true"/>
         <mapperTableEntries name="BUSINESSROLE" expression="row2.TB_BPROLE " type="id_String" nullable="true"/>
         <mapperTableEntries name="FISCALSYS" expression="row2.KFRFISCSY " type="id_String" nullable="true"/>
         <mapperTableEntries name="BALANCETAX" expression="row2.AFRTAXBH " type="id_BigDecimal" nullable="true"/>
